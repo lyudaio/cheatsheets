@@ -11,7 +11,7 @@
 - No need to declare variable data types
 - Variables can be assigned using `=`
 - Examples:
-```
+```python
   age = 30
   salary = 25000.50
   gender = 'M'
@@ -41,7 +41,7 @@
 - Elements can be of different data types
 - Lists are defined using square brackets `[]`
 - Examples:
-```
+```python
   marks = [85, 90, 80]
   names = ['John', 'Jane', 'Jim']
 ```
@@ -52,7 +52,7 @@
 - Elements can be of different data types
 - Tuples are defined using parentheses `()`
 - Examples:
-```
+```python
   marks = (85, 90, 80)
   names = ('John', 'Jane', 'Jim')
 ```
@@ -63,7 +63,9 @@
 - Elements are stored in key-value pairs
 - Dictionaries are defined using curly braces `{}`
 - Examples:
+```python
   details = {'name': 'John', 'age': 30, 'gender': 'M'}
+```
 
 ## Functions
 
@@ -71,7 +73,7 @@
 - Can accept parameters and return values
 - Use `def` keyword to define a function
 - Examples:
-```
+```python
   def add_numbers(a, b):
       return a + b
   def say_hello():
@@ -85,7 +87,7 @@
 - Use `class` keyword to define a class
 - Examples:
   class Student:
-```
+```python
       def __init__(self, roll_no, name):
           self.roll_no = roll_no
           self.name = name

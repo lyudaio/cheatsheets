@@ -13,7 +13,7 @@
 - Variables must be declared before use
 - `final` keyword is used for constants
 - Examples:
-```
+```java
   int age = 30;
   float salary = 25000.50f;
   char gender = 'M';
@@ -44,7 +44,7 @@
 - Array is a collection of similar data types
 - Array index starts from `0`
 - Examples:
-```
+```java
   int[] marks = new int[5];
   marks[0] = 85;
   marks[1] = 90;
@@ -56,7 +56,7 @@
 - Reusable blocks of code
 - Can accept parameters and return values
 - Examples:
-```
+```java
   public int addNumbers(int a, int b) {
       return a + b;
   }
@@ -70,7 +70,7 @@
 - Blueprint for creating objects
 - Variables and methods inside a class
 - Examples:
-```
+```java
   class Student {
       int rollNo;
       String name;
