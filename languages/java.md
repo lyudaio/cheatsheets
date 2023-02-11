@@ -13,10 +13,12 @@
 - Variables must be declared before use
 - `final` keyword is used for constants
 - Examples:
+```
   int age = 30;
   float salary = 25000.50f;
   char gender = 'M';
   boolean isMarried = true;
+```
 
 ## Operators
 
@@ -42,28 +44,33 @@
 - Array is a collection of similar data types
 - Array index starts from `0`
 - Examples:
+```
   int[] marks = new int[5];
   marks[0] = 85;
   marks[1] = 90;
   marks[2] = 80;
+```
 
 ## Methods
 
 - Reusable blocks of code
 - Can accept parameters and return values
 - Examples:
+```
   public int addNumbers(int a, int b) {
       return a + b;
   }
   public void sayHello() {
       System.out.println("Hello");
   }
+```
 
 ## Classes
 
 - Blueprint for creating objects
 - Variables and methods inside a class
 - Examples:
+```
   class Student {
       int rollNo;
       String name;
@@ -72,3 +79,4 @@
           System.out.println("Name: " + name);
       }
   }
+```
