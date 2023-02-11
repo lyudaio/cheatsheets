@@ -2,10 +2,18 @@
 
 A collection of cheat sheets for various programming languages.
 
-## Contents
-- Bash
-- Java
-- Python
+# Table of Contents
+
+- [Languages](#languages)
+  - [Bash](https://github.com/lyudaio/cheatsheets/blob/master/languages/bash.md)
+  - [Java](https://github.com/lyudaio/cheatsheets/blob/master/languages/java.md)
+  - [Python](https://github.com/lyudaio/cheatsheets/blob/master/languages/python.md)
+- [Systems](#systems)
+  - [Arch Linux](https://github.com/lyudaio/cheatsheets/blob/master/systems/arch.md)
+  - [CentOS](https://github.com/lyudaio/cheatsheets/blob/master/systems/centos.md)
+  - [RHEL](https://github.com/lyudaio/cheatsheets/blob/master/systems/rhel.md)
+  - [Ubuntu](https://github.com/lyudaio/cheatsheets/blob/master/systems/ubuntu.md)
+  - [Windows Server](https://github.com/lyudaio/cheatsheets/blob/master/systems/win.md)
 
 ## License
 
