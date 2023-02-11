@@ -86,8 +86,8 @@
 - Variables and methods inside a class
 - Use `class` keyword to define a class
 - Examples:
-  class Student:
 ```python
+  class Student:
       def __init__(self, roll_no, name):
           self.roll_no = roll_no
           self.name = name
