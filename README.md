@@ -2,18 +2,27 @@
 
 A collection of cheat sheets for various programming languages.
 
-# Table of Contents
+## Table of Contents
 
-- [Languages](#languages)
-  - [Bash](https://github.com/lyudaio/cheatsheets/blob/master/languages/bash.md)
-  - [Java](https://github.com/lyudaio/cheatsheets/blob/master/languages/java.md)
-  - [Python](https://github.com/lyudaio/cheatsheets/blob/master/languages/python.md)
-- [Systems](#systems)
-  - [Arch Linux](https://github.com/lyudaio/cheatsheets/blob/master/systems/arch.md)
-  - [CentOS](https://github.com/lyudaio/cheatsheets/blob/master/systems/centos.md)
-  - [RHEL](https://github.com/lyudaio/cheatsheets/blob/master/systems/rhel.md)
-  - [Ubuntu](https://github.com/lyudaio/cheatsheets/blob/master/systems/ubuntu.md)
-  - [Windows Server](https://github.com/lyudaio/cheatsheets/blob/master/systems/win.md)
+- [Operating Systems](#operating-systems)
+
+  - [Linux](#linux)
+    - [Arch Linux](https://github.com/lyudaio/cheatsheets/blob/master/operating_systems/linux/arch.md)
+    - [CentOS](https://github.com/lyudaio/cheatsheets/blob/master/operating_systems/linux/centos.md)
+    - [RHEL](https://github.com/lyudaio/cheatsheets/blob/master/operating_systems/linux/rhel.md)
+    - [Ubuntu](https://github.com/lyudaio/cheatsheets/blob/master/operating_systems/linux/ubuntu.md)
+  - [Windows](#windows)
+    - [Windows Server](https://github.com/lyudaio/cheatsheets/blob/master/operating_systems/windows/win.md)
+
+- [Programming Languages](#programming-languages)
+  - [Go](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/go.md)
+  - [Java](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/java.md)
+  - [Python](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/python.md)
+  - [Shell](#shell)
+    - [Bash](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/shell/bash.md)
+  - [Web Technologies](#web-technologies)
+    - [SVG](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/web_technologies/svg.md)
+    - [XML](https://github.com/lyudaio/cheatsheets/blob/master/programming_languages/web_technologies/xml.md)
 
 ## License
 
