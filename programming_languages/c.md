@@ -88,8 +88,8 @@ Pointer in C is a variable that stores memory address of another variable.
 Syntax regarding pointers simply put is as follows:
 - '&' Sign before variable name means access to memory adress of that variable.
 - '*' Before variable name can mean either: 
-    1) On definition (int *intPointer), specyfying variable being a pointer.
-    2) On assignment (int numberCopied = *intPointer), accessing data of variable on that memory adress.
+    1) On definition, specyfying variable being a pointer (int *intPointer).
+    2) On assignment, accessing data of variable on that memory adress (int numberCopied = *intPointer).
 
 
 Note that every pointer should have an assigned data type it points to (int*, char* ...), with exception of void* that can have assigned any data type.
