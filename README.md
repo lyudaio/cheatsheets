@@ -4,8 +4,6 @@ A collection of cheat sheets for various programming languages.
 
 ## Table of Contents
 
-## Table of Contents
-
 - [Operating Systems](#operating-systems)
 
   - [Linux](#linux)
