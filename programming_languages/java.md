@@ -9,14 +9,27 @@
 
 ## Variables
 
-- Use `int`, `float`, `double`, `char`, `boolean` to declare variables
-- Variables must be declared before use
-- `final` keyword is used for constants
+- Variables must be declared with a data type before use
+- Data types and limitations:
+  | Data Type | Size | Primitive/Reference | Value |
+  | --------- | ---- | :-: | ----- |
+  | `boolean` | 1 bit | primitive | `true` or `false` |
+  | `int` | 4 bytes | primitive | -2 billion to 2 billion |
+  | `float` | 4 bytes | primitive | up to 6-7 digits; must suffix 'f' to the number |
+  | `double` | 8 bytes | primitive | up to 15 digits |
+  | `char` | 2 bytes | primitive | single character/letter/ASCII |
+  | `String` | varies | reference | sequence of characters |
+  | `byte` | 1 byte | primitive | -128 to 127 |
+  | `short` | 2 bytes | primitive | -32,768 to 32,767 |
+  | `long` | 8 bytes | primitive | -9 quintillion to 9 quintillion |
+- Use `final` keyword to declare immutable constants
 - Examples:
 
 ```java
+  String name = "John";
   int age = 30;
   float salary = 25000.50f;
+  double tax = 10.00;
   char gender = 'M';
   boolean isMarried = true;
 ```
