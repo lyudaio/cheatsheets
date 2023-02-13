@@ -59,6 +59,29 @@ A collection of cheat sheets for various programming languages.
     - [Aircrack-ng](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/aircrack-ng.md)
     - [Nmap](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/nmap.md)
 
+## Databases
+
+Here is a list of cheat sheets for various databases:
+
+- **Databases**
+  - [Cassandra](https://github.com/lyudaio/cheatsheets/blob/main/databases/cassandra.md)
+  - [DynamoDB](https://github.com/lyudaio/cheatsheets/blob/main/databases/dynamodb.md)
+  - [Elasticsearch](https://github.com/lyudaio/cheatsheets/blob/main/databases/elasticsearch.md)
+  - [FirebirdSQL](https://github.com/lyudaio/cheatsheets/blob/main/databases/firebirdsql.md)
+  - [IBM DB2](https://github.com/lyudaio/cheatsheets/blob/main/databases/ibmdb2.md)
+  - [MariaDB](https://github.com/lyudaio/cheatsheets/blob/main/databases/mariadb.md)
+  - [MongoDB](https://github.com/lyudaio/cheatsheets/blob/main/databases/mongodb.md)
+  - [MySQL](https://github.com/lyudaio/cheatsheets/blob/main/databases/mysql.md)
+  - [Neo4j](https://github.com/lyudaio/cheatsheets/blob/main/databases/neo4j.md)
+  - [Oracle](https://github.com/lyudaio/cheatsheets/blob/main/databases/oracle.md)
+  - [OrientDB](https://github.com/lyudaio/cheatsheets/blob/main/databases/orientdb.md)
+  - [PostgreSQL](https://github.com/lyudaio/cheatsheets/blob/main/databases/postgres.md)
+  - [Redis](https://github.com/lyudaio/cheatsheets/blob/main/databases/redis.md)
+  - [Snowflake](https://github.com/lyudaio/cheatsheets/blob/main/databases/snowflake.md)
+  - [Solr](https://github.com/lyudaio/cheatsheets/blob/main/databases/solr.md)
+  - [SQLite](https://github.com/lyudaio/cheatsheets/blob/main/databases/sqlite.md)
+  - [SQL Server](https://github.com/lyudaio/cheatsheets/blob/main/databases/sqlserver.md)
+
 ## Contributing
 
 I welcome contributions to this cheatsheet collection! My goal is to provide up-to-date and general information about various topics in a concise and simple manner.
