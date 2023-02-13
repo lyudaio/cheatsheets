@@ -4,9 +4,9 @@ Helm is a popular open-source package management tool for Kubernetes. It allows 
 
 ## Installing Helm
 
-- 1. Download the latest version of Helm from the [Official Website](https://helm.sh/docs/intro/install/>
+- Download the latest version of Helm from the [Official Website](https://helm.sh/docs/intro/install/)
 
-- 2. Install Helm using the following command:
+- Install Helm using the following command:
 
 ```bash
 curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
