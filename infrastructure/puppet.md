@@ -158,7 +158,7 @@ file { '/tmp/setting2':
 }
 ```
 
-## Modules Modules Continued
+## Modules Continued
 
 Modules are a way to organize and reuse your Puppet code. They allow you to encapsulate a complete configuration for a specific aspect of your infrastructure.
 
