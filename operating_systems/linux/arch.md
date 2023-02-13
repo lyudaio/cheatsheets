@@ -1,8 +1,8 @@
-# Arch Linux System Administration Cheatsheet
+# Arch Linux System Administration Cheatsheet (Latest LTS: 2023)
 
 ## General System Information
 
-- Display system information: `cat /etc/arch-release`
+- Display system information: `cat /etc/os-release` or `cat /lib/os-release`
 - Display kernel information: `uname -a`
 - Display hostname: `hostname`
 - Display system uptime: `uptime`
@@ -50,3 +50,7 @@
 - Display running processes: `ps aux`
 - Kill process: `kill [process ID]`
 - Kill process by name: `pkill [process name]`
+
+## Conclusion
+
+This cheatsheet provides a quick reference to some common Arch Linux administration tasks. However, this is by no means a comprehensive guide, and for more information and advanced topics, it's recommended to consult the official [Arch Linux Documentation.](https://wiki.archlinux.org/)
