@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bas
 
 ## Initializing Helm
 
-- 1. Initialize Helm on your local machine by running the following command:
+Initialize Helm on your local machine by running the following command:
 
 ```bash
 helm init
@@ -22,14 +22,14 @@ helm init
 
 ## Creating a Chart
 
-- 1. Create a new directory for your chart:
+Create a new directory for your chart:
 
 ```bash
 mkdir mychart
 cd mychart
 ```
 
-- 2. Use the following command to create a new chart:
+Use the following command to create a new chart:
 
 ```bash
 helm create chart
@@ -37,7 +37,7 @@ helm create chart
 
 ## Deploying a Chart
 
-- 1. Deploy a chart to your Kubernetes cluster by running the following command:
+Deploy a chart to your Kubernetes cluster by running the following command:
 
 ```bash
 helm install --name myrelease mychart
@@ -45,7 +45,7 @@ helm install --name myrelease mychart
 
 ## Upgrading a Chart
 
-- 1. Upgrade an existing release by running the following command:
+Upgrade an existing release by running the following command:
 
 ```bash
 helm upgrade myrelease mychart
@@ -53,7 +53,7 @@ helm upgrade myrelease mychart
 
 ## Deleting a Chart
 
-- 1. Delete a release by running the following command:
+Delete a release by running the following command:
 
 ```bash
 helm delete myrelease
