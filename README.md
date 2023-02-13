@@ -59,10 +59,6 @@ A collection of cheat sheets for various programming languages.
     - [Aircrack-ng](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/aircrack-ng.md)
     - [Nmap](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/nmap.md)
 
-## Databases
-
-Here is a list of cheat sheets for various databases:
-
 - **Databases**
   - [Cassandra](https://github.com/lyudaio/cheatsheets/blob/main/databases/cassandra.md)
   - [DynamoDB](https://github.com/lyudaio/cheatsheets/blob/main/databases/dynamodb.md)
