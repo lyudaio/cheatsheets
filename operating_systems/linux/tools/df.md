@@ -1,59 +1,54 @@
-# SSH Cheatsheet
+# df - Display the Amount of Disk Space Used and Available
 
 ## Introduction
 
-Secure Shell (SSH) is a cryptographic network protocol used for secure data communication, remote shell services or command execution and other secure network services between two networked computers. It was designed as a replacement for Telnet and other insecure remote shell protocols.
+`df` is a Unix command that shows the amount of disk space used and available on a Linux file system. The `df` command is used to check the disk space available on the file system that a file resides on.
 
-## Key-based authentication
-
-Key-based authentication is more secure than password-based authentication, as it eliminates the need to send a password over the network, which could be intercepted. With key-based authentication, the client machine has a public key, and the server machine has a private key.
-
-### Generating an SSH Key-Pair
-
-To generate a key-pair, run the following command in a terminal:
+## Syntax
 
 ```bash
-ssh-keygen -t rsa
+df [OPTION]... [FILE]...
 ```
 
-### Adding your public key to the remote server
+## Options
 
-To add your public key to the remote server, use the following command:
+- `-a, --all`: include pseudo, duplicate, inaccessible file systems
+- `-B, --block-size=SIZE`: use SIZE-byte blocks
+- `-h, --human-readable`: print sizes in human readable format (e.g., 1K 234M 2G)
+- `-H, --si`: equivalent to `--block-size=1000`
+- `-i, --inodes`: list inode information instead of block usage
+- `-k, --kilobytes`: default, use 1024-byte blocks
+- `-l, --local`: limit listing to local file systems
+- `-t, --type=TYPE`: limit listing to file systems of type TYPE
+- `-T, --print-type`: print file system type
+- `-x, --exclude-type=TYPE`: limit listing to file systems not of type TYPE
+
+## Examples
+
+To display the disk space usage of all mounted file systems:
 
 ```bash
-ssh-copy-id user@remote_server
+df -h
 ```
 
-## Connecting to a Remote Server
-
-To connect to a remote server, use the following command:
+To display disk space usage of a specific file system:
 
 ```bash
-ssh user@remote_server
+df -h /dev/sda1
 ```
 
-## Port Forwarding
-
-Port forwarding allows you to forward traffic from a local port to a remote server. For example, to forward traffic from port 8080 on your local machine to port 80 on a remote server, run the following command:
+To display disk space usage in kilobytes:
 
 ```bash
-ssh -L 8080:remote_server:80 user@remote_server
+df -k
 ```
 
-## SCP (Secure Copy)
-
-SCP is a secure way to copy files between two machines over an SSH connection. To copy a file from your local machine to a remote server, run the following command:
+To display disk space usage of all file systems excluding NFS:
 
 ```bash
-scp file.txt user@remote_server:~/
-```
-
-To copy a file from a remote server to your local machine, run the following command:
-
-```bash
-scp user@remote_server:file.txt ~/
+df -x nfs
 ```
 
 ## Conclusion
 
-This cheatsheet provides a basic understanding of how to use SSH to securely connect to remote servers and transfer files. There are many more features and options available in SSH, but these basic commands should cover most common use cases.
+In conclusion, the `df` command is a useful tool for checking disk space usage in Linux. It provides information on the amount of disk space used and available on a file system, and also provides options for displaying disk space usage in different formats, such as human-readable format or kilobytes. By using the `df` command regularly, you can monitor disk space usage and ensure that you have enough disk space for your needs. END_OF_MESSAGE
