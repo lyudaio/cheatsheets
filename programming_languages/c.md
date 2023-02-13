@@ -86,19 +86,20 @@ Pointer in C is a variable that stores memory address of another variable.
 ```
 
 Syntax regarding pointers simply put is as follows:
+
 - '&' Sign before variable name means access to memory adress of that variable.
-- '*' Before variable name can mean either: 
-    1) On definition, specyfying variable being a pointer (int *intPointer).
-    2) On assignment, accessing data of variable on that memory adress (int numberCopied = *intPointer).
+- '\*' Before variable name can mean either:
+  1. On definition, specyfying variable being a pointer (int \*intPointer).
+  2. On assignment, accessing data of variable on that memory adress (int numberCopied = \*intPointer).
 
-
-Note that every pointer should have an assigned data type it points to (int*, char* ...), with exception of void* that can have assigned any data type.
+Note that every pointer should have an assigned data type it points to (int*, char* ...), with exception of void\* that can have assigned any data type.
 
 ## Structs
 
 Structs are data containers used to store several variables together (struct variables are called members).
 
 Struct definition:
+
 ```c
     struct Entity {
         int positionX;
@@ -107,6 +108,7 @@ Struct definition:
 ```
 
 Struct usage:
+
 ```c
 // Creating an "Entity" struct with members positionX and positionY equal to 0
 struct Entity e1 = {0,0};
