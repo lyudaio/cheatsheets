@@ -4,6 +4,8 @@ A collection of cheat sheets for various programming languages.
 
 ## Table of Contents
 
+## Table of Contents
+
 - [Operating Systems](#operating-systems)
 
   - [Linux](#linux)
@@ -11,14 +13,20 @@ A collection of cheat sheets for various programming languages.
     - [CentOS](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/centos.md)
     - [Debian](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/debian.md)
     - [Fedora](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/fedora.md)
+    - [Kali](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/kali.md)
     - [RHEL](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/rhel.md)
     - [OpenSUSE](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/opensuse.md)
     - [Ubuntu](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/ubuntu.md)
+    - [Tools](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools)
+      - [grep](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/grep.md)
+      - [ls](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/ls.md)
+      - [tar](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/tar.md)
   - [Windows](#windows)
     - [Windows 95](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/windows/windows_95.md)
     - [Windows Server](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/windows/windows_server.md)
 
 - [Programming Languages](#programming-languages)
+
   - [Go](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/go.md)
   - [Java](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/java.md)
   - [Python](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/python.md)
@@ -27,6 +35,11 @@ A collection of cheat sheets for various programming languages.
   - [Web Technologies](#web-technologies)
     - [SVG](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/web_technologies/svg.md)
     - [XML](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/web_technologies/xml.md)
+
+- [Security](#security)
+  - [Security Resources](https://github.com/lyudaio/cheatsheets/blob/main/security/security_resources.md)
+  - [Tools](#tools)
+    - [Nmap](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/nmap.md)
 
 ## License
 
