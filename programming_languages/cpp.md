@@ -78,24 +78,11 @@ C++ supports a number of control structures, including `if` statements, `for` lo
     }
 ```
 
-## Functions
-
-Functions in C++ are declared with a return type, a name, and a list of parameters. Functions can be called from other parts of the code.
-
-```c++
-    int add(int a, int b) {
-        return a + b;
-    }
-
-    int result = add(10, 20);
-    cout << result << endl;
-```
-
 ## Classes and Objects
 
 C++ allows the creation of classes, which are essentially custom data types that can be used to represent real-world objects. A class defines the structure and behavior of objects, and objects are instances of classes.
 
-```
+```c++
 class Car {
   public:
     string brand;
@@ -110,18 +97,18 @@ class Car {
 
 To create an object of a class, we use the following syntax:
 
-```
+```c++
 Car myCar;
 myCar.brand = "Toyota";
 myCar.model = "Camry";
 myCar.year = 2020;
 ```
 
-### Functions
+## Functions
 
-Functions in C++ allow you to encapsulate a block of code that performs a specific task. Functions can be defined inside classes as well as outside of classes.
+Functions in C++ allow you to encapsulate a block of code that performs a specific task. Functions can be defined inside classes as well as outside of classes. Functions in C++ are declared with a return type, a name, and a list of parameters.
 
-```
+```c++
 void printHello() {
   cout << "Hello World!" << endl;
 }
@@ -129,13 +116,21 @@ void printHello() {
 int addNumbers(int a, int b) {
   return a + b;
 }
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int result = add(10, 20);
+cout << result << endl;
+
 ```
 
 ### Pointers
 
 Pointers are variables that hold the memory address of another variable. They allow for dynamic memory allocation and can be used for more efficient memory usage.
 
-```
+```c++
 int x = 10;
 int *ptr = &x;
 cout << "The value of x is: " << x << endl;
@@ -146,7 +141,7 @@ cout << "The address of x is: " << ptr << endl;
 
 The Standard Template Library (STL) is a collection of templates and algorithms that provide common data structures and operations. Some of the most commonly used STL components are `vector`, `map`, and `string`.
 
-```
+```c++
 #include <vector>
 #include <string>
 
@@ -162,7 +157,7 @@ string name = "John Doe";
 
 Exception handling is a mechanism for handling errors and exceptional conditions that may occur in a program.
 
-```
+```c++
 try {
   int x = 10;
   int y = 0;

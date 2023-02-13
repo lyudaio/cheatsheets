@@ -79,4 +79,3 @@
 - `ctrl + z`: Suspend the current command.
 - `bg`: Resume a suspended command in the background.
 - `fg`: Resume a suspended command in the foreground.
-

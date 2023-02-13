@@ -1,4 +1,4 @@
-## Basic Syntax
+# Basic Syntax
 
 - Java is case-sensitive
 - Class names start with a capital letter
@@ -13,6 +13,7 @@
 - Variables must be declared before use
 - `final` keyword is used for constants
 - Examples:
+
 ```java
   int age = 30;
   float salary = 25000.50f;
@@ -44,6 +45,7 @@
 - Array is a collection of similar data types
 - Array index starts from `0`
 - Examples:
+
 ```java
   int[] marks = new int[5];
   marks[0] = 85;
@@ -56,6 +58,7 @@
 - Reusable blocks of code
 - Can accept parameters and return values
 - Examples:
+
 ```java
   public int addNumbers(int a, int b) {
       return a + b;
@@ -70,6 +73,7 @@
 - Blueprint for creating objects
 - Variables and methods inside a class
 - Examples:
+
 ```java
   class Student {
       int rollNo;
