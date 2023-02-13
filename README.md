@@ -4,9 +4,9 @@ A collection of cheat sheets for various programming languages.
 
 ## Table of Contents
 
-- [Operating Systems](#operating-systems)
+- **Operating Systems**
 
-  - [Linux](#linux)
+  - **Linux**
     - [Arch Linux](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/arch.md)
     - [CentOS](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/centos.md)
     - [Debian](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/debian.md)
@@ -19,24 +19,44 @@ A collection of cheat sheets for various programming languages.
       - [grep](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/grep.md)
       - [ls](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/ls.md)
       - [tar](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/linux/tools/tar.md)
-  - [Windows](#windows)
+  - **Windows**
     - [Windows 95](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/windows/windows_95.md)
     - [Windows Server](https://github.com/lyudaio/cheatsheets/blob/main/operating_systems/windows/windows_server.md)
 
-- [Programming Languages](#programming-languages)
+- **Programming Languages**
 
+  - [C](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/c.md)
+  - [C++](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/cpp.md)
+  - [C#](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/csharp.md)
+  - [CoffeeScript](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/coffeescript.md)
+  - [Crystal](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/crystal.md)
+  - [D](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/d.md)
   - [Go](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/go.md)
+  - [Groovy](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/groovy.md)
   - [Java](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/java.md)
+  - [JavaScript](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/javascript.md)
+  - [Julia](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/julia.md)
+  - [Kotlin](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/kotlin.md)
+  - [Perl](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/perl.md)
+  - [PHP](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/php.md)
   - [Python](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/python.md)
-  - [Shell](#shell)
+  - [R](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/r.md)
+  - [Ruby](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/ruby.md)
+  - [Rust](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/rust.md)
+  - [Scala](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/scala.md)
+  - **Shell**
     - [Bash](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/shell/bash.md)
-  - [Web Technologies](#web-technologies)
+    - [Powershell](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/shell/powershell.md)
+  - [Typescript](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/typescript.md)
+  - [V](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/v.md)
+  - **Web Technologies**
     - [SVG](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/web_technologies/svg.md)
     - [XML](https://github.com/lyudaio/cheatsheets/blob/main/programming_languages/web_technologies/xml.md)
 
-- [Security](#security)
+- **Security**
   - [Security Resources](https://github.com/lyudaio/cheatsheets/blob/main/security/security_resources.md)
-  - [Tools](#tools)
+  - **Tools**
+    - [Aircrack-ng](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/aircrack-ng.md)
     - [Nmap](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/nmap.md)
 
 ## Contributing
