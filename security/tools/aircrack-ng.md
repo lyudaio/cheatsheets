@@ -31,5 +31,3 @@ aircrack-ng <filename>.cap -w <wordlist>
 ```
 
 Replace `<filename>` with the name of the captured packets file and `<wordlist>` with the path to a wordlist file containing possible passwords.
-
-END_OF_MESSAGE
