@@ -54,7 +54,11 @@ If you would like to contribute, please fork the repository, make your changes, 
 
 ## How to support me
 
-Share my content or [Buy me a coffee](https://www.buymeacoffee.com/lyudaio) <3
+<p align="center">
+  <img src="https://i.imgur.com/GQ2TOv4.png" alt="Buy me a Coffee" height="200" width="200">
+</p>
+
+If you like the work I do here, feel free to [buy me a coffee](https://www.buymeacoffee.com/lyudaio) ❤️, I appreciate all support!
 
 ## License
 
