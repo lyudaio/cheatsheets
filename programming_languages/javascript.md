@@ -68,19 +68,25 @@ Javascript has various operators for performing arithmetic, assignment, comparis
 ### Comparison Operators
 
 - `==`: equality
-- `===`: strict equality
+- `===`: strict equality (value and type)
 - `!=`: inequality
-- `!==`: strict inequality
+- `!==`: strict inequality (value and type)
 - `>`: greater than
 - `<`: less than
 - `>=`: greater than or equal to
 - `<=`: less than or equal to
+- `?`: ternary operator
 
 ### Logical Operators
 
 - `&&`: logical AND
 - `||`: logical OR
 - `!`: logical NOT
+
+### Type Operators
+
+- `typeof`: returns the type of a variable
+- `instanceof`: returns true if object is an instance of an object type
 
 ## Conditional Statements
 
