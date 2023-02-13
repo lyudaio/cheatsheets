@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 In PHP, variables are declared using the "$" symbol. The data type of the variable is determined automatically based on its value.
 
