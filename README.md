@@ -52,6 +52,10 @@ When contributing, please keep the following guidelines in mind:
 
 If you would like to contribute, please fork the repository, make your changes, and open a pull request. I appreciate your help in making this resource as helpful as possible!
 
+## How to support me
+
+Share my content or [Buy me a coffee](https://www.buymeacoffee.com/lyudaio) <3
+
 ## License
 
 This repository is licensed under the MIT License.
