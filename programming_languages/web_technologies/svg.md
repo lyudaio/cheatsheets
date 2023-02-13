@@ -42,6 +42,6 @@ Here is a simple example of an SVG that draws a red circle with a diameter of 50
 </svg>
 ```
 
-## Concusion
+## Conclusion
 
 This cheat sheet provided an overview of the basic concepts and elements of Scalable Vector Graphics (SVG). To learn more, it is recommended to visit the [W3C SVG specification](https://www.w3.org/TR/SVG11/) and the [MDN web docs.](https://developer.mozilla.org/en-US/docs/Web/SVG)
