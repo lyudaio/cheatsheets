@@ -41,6 +41,19 @@ A collection of cheat sheets for various programming languages.
   - [Tools](#tools)
     - [Nmap](https://github.com/lyudaio/cheatsheets/blob/main/security/tools/nmap.md)
 
+## Contributing
+
+I welcome contributions to this cheatsheet collection! My goal is to provide up-to-date and general information about various topics in a concise and simple manner.
+
+When contributing, please keep the following guidelines in mind:
+
+- Try to keep the cheatsheets up to date, including the latest versions of software and technologies.
+- Keep the information as general as possible, avoiding specific configurations or custom setups.
+- Emphasize the essential information and convey it concisely.
+- Use clear and concise language, avoiding overly technical terms or jargon.
+
+If you would like to contribute, please fork the repository, make your changes, and open a pull request. I appreciate your help in making this resource as helpful as possible!
+
 ## License
 
 This repository is licensed under the MIT License.
