@@ -8,7 +8,7 @@ rsync is a fast and versatile utility for synchronizing files and directories be
 
 The basic syntax for rsync is as follows:
 
-```
+```bash
 rsync [OPTION]... SRC [SRC]... DEST
 ```
 
