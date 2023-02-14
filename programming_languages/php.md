@@ -95,6 +95,13 @@ PHP supports the following conditional statements:
             echo "a is not 10 or 20";
             break;
     }
+
+    // Match statements (updated switches)
+    match ($a) {
+        10 => echo "a is 10",
+        20 => echo "a is 20",
+        default => echo "a is not 10 or 20",
+    }
 ```
 
 ## Looping Constructs
