@@ -18,10 +18,44 @@
   | `float` | 4 bytes | up to 6-7 digits; must suffix 'f' to the number | `0.0f` | Represents a single-precision floating point number |
   | `double` | 8 bytes | up to 15 digits | `0.0d` | Represents a double-precision floating point number |
   | `char` | 2 bytes | single character/letter/Unicode | `'\u0000'` | Represents a Unicode character |
-  | `String` | varies | sequence of characters | `null` | Represents a string of text |
+  | `String` | varies | sequence of characters | `null` | Represents a string of text though differs from the other types in that [`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) are [Object](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html) data types. |
   | `byte` | 1 byte | -128 to 127 | `0` | Represents an 8-bit integer |
   | `short` | 2 bytes | -2^15 to 2^15-1 | `0` | Represents a 16-bit integer |
   | `long` | 8 bytes | -2^63 to 2^63-1 | `0L` | Represents a 64-bit integer |
+
+- [`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. To support mutable strings, Java provides [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html). However, since String objects are immutable, they can be shared.
+
+For instance, the following two statements are equivalent:
+
+```java
+String str = "abc";
+char[] data = {'a', 'b', 'c'};
+String str2 = new String(data);
+```
+
+Here are some examples of how strings can be used:
+
+```java
+System.out.println("abc"); // prints "abc"
+String cde = "cde";
+System.out.println("abc" + cde); // prints "abccde"
+String c = "abc".substring(2, 3); // c is now "c"
+String d = cde.substring(1, 2); // d is now "d"
+```
+
+Since Java's String class is immutable, meaning its values cannot be changed after creation.
+However, we can create a new String object from an existing one, with some modifications.
+
+For instance, the following code replaces all occurrences of the character 'a' with 'b' in a given string:
+
+```java
+String original = "banana";
+String modified = original.replace('a', 'b');
+System.out.println(original); // prints "banana"
+System.out.println(modified); // prints "bbnbnb"
+```
+
+In this example, we create a new String object called modified from the original string by replacing all occurrences of the character 'a' with 'b'. Since the String class is immutable, the original string remains unchanged.
 
 - In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values.
 
