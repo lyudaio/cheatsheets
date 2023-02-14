@@ -12,18 +12,22 @@ Each cheatsheet includes all the essential information you need to get started, 
 
 - **Programming Languages**
 
+  - [AWK](https://cheatsheets.lyuda.io/en/programming_languages/awk)
   - [C](https://cheatsheets.lyuda.io/en/programming_languages/c)
   - [C++](https://cheatsheets.lyuda.io/en/programming_languages/cpp)
   - [C#](https://cheatsheets.lyuda.io/en/programming_languages/csharp)
   - [CoffeeScript](https://cheatsheets.lyuda.io/en/programming_languages/coffeescript)
   - [Crystal](https://cheatsheets.lyuda.io/en/programming_languages/crystal)
   - [D](https://cheatsheets.lyuda.io/en/programming_languages/d)
+  - [Fortran](https://cheatsheets.lyuda.io/en/programming_languages/fortran)
   - [Go](https://cheatsheets.lyuda.io/en/programming_languages/go)
   - [Groovy](https://cheatsheets.lyuda.io/en/programming_languages/groovy)
   - [Java](https://cheatsheets.lyuda.io/en/programming_languages/java)
   - [JavaScript](https://cheatsheets.lyuda.io/en/programming_languages/javascript)
   - [Julia](https://cheatsheets.lyuda.io/en/programming_languages/julia)
   - [Kotlin](https://cheatsheets.lyuda.io/en/programming_languages/kotlin)
+  - [Lisp](https://cheatsheets.lyuda.io/en/programming_languages/lisp)
+  - [LOLCODE](https://cheatsheets.lyuda.io/en/programming_languages/lol)
   - [Perl](https://cheatsheets.lyuda.io/en/programming_languages/perl)
   - [PHP](https://cheatsheets.lyuda.io/en/programming_languages/php)
   - [Python](https://cheatsheets.lyuda.io/en/programming_languages/python)
@@ -34,11 +38,13 @@ Each cheatsheet includes all the essential information you need to get started, 
   - **Shell**
     - [Bash](https://cheatsheets.lyuda.io/en/programming_languages/shell/bash)
     - [Powershell](https://cheatsheets.lyuda.io/en/programming_languages/shell/powershell)
-  - [Typescript](https://cheatsheets.lyuda.io/en/programming_languages/typescript)
+  - [TypeScript](https://cheatsheets.lyuda.io/en/programming_languages/typescript)
   - [V](https://cheatsheets.lyuda.io/en/programming_languages/v)
   - **Web Technologies**
+    - [JSON](https://cheatsheets.lyuda.io/en/programming_languages/web_technologies/json)
     - [SVG](https://cheatsheets.lyuda.io/en/programming_languages/web_technologies/svg)
     - [XML](https://cheatsheets.lyuda.io/en/programming_languages/web_technologies/xml)
+  - [YAML](https://cheatsheets.lyuda.io/en/programming_languages/yaml)
 
 - **Operating Systems**
 
@@ -52,19 +58,25 @@ Each cheatsheet includes all the essential information you need to get started, 
     - [OpenSUSE](https://cheatsheets.lyuda.io/operating_systems/linux/opensuse)
     - [Ubuntu](https://cheatsheets.lyuda.io/operating_systems/linux/ubuntu)
     - [Tools](https://cheatsheets.lyuda.io/operating_systems/linux/tools)
+      - [df](https://cheatsheets.lyuda.io/operating_systems/linux/tools/df)
+      - [git](https://cheatsheets.lyuda.io/operating_systems/linux/tools/git)
       - [grep](https://cheatsheets.lyuda.io/operating_systems/linux/tools/grep)
       - [ls](https://cheatsheets.lyuda.io/operating_systems/linux/tools/ls)
+      - [rsync](https://cheatsheets.lyuda.io/operating_systems/linux/tools/rsync)
+      - [ssh](https://cheatsheets.lyuda.io/operating_systems/linux/tools/ssh)
       - [tar](https://cheatsheets.lyuda.io/operating_systems/linux/tools/tar)
+      - [vim](https://cheatsheets.lyuda.io/operating_systems/linux/tools/vim)
   - **Windows**
     - [Windows 95](https://cheatsheets.lyuda.io/operating_systems/windows/windows_95)
     - [Windows Server](https://cheatsheets.lyuda.io/operating_systems/windows/windows_server)
 
 - **Security**
 
-  - [Security Resources](https://cheatsheets.lyuda.io/security/security_resources.md)
+  - [Security Resources](https://cheatsheets.lyuda.io/security/security_resources)
   - **Tools**
-    - [Aircrack-ng](https://cheatsheets.lyuda.io/security/tools/aircrack-ng.md)
-    - [Nmap](https://cheatsheets.lyuda.io/security/tools/nmap.md)
+    - [Aircrack-ng](https://cheatsheets.lyuda.io/security/tools/aircrack-ng)
+    - [Nmap](https://cheatsheets.lyuda.io/security/tools/nmap)
+    - [OpenSSL](https://cheatsheets.lyuda.io/security/tools/openssl)
 
 - **Databases**
   - [Cassandra](https://cheatsheets.lyuda.io/databases/cassandra)
@@ -72,6 +84,7 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Elasticsearch](https://cheatsheets.lyuda.io/databases/elasticsearch)
   - [FirebirdSQL](https://cheatsheets.lyuda.io/databases/firebirdsql)
   - [IBM DB2](https://cheatsheets.lyuda.io/databases/ibmdb2)
+  - [InfluxDB DB2](https://cheatsheets.lyuda.io/databases/influxdb)
   - [MariaDB](https://cheatsheets.lyuda.io/databases/mariadb)
   - [MongoDB](https://cheatsheets.lyuda.io/databases/mongodb)
   - [MySQL](https://cheatsheets.lyuda.io/databases/mysql)
@@ -84,6 +97,7 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Solr](https://cheatsheets.lyuda.io/databases/solr)
   - [SQLite](https://cheatsheets.lyuda.io/databases/sqlite)
   - [SQL Server](https://cheatsheets.lyuda.io/databases/sqlserver)
+
 
 ## Contributing
 
