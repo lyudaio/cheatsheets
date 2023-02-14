@@ -76,17 +76,7 @@ print("Hello, World!")
 
 ## Horizontal Rule
 
-To create a horizontal rule, use three or more hyphens, asterisks or underscores:
-
-~~~bash
-
----
-
-***
-
-___
-
-~~~
+To create a horizontal rule, use three or more hyphens `(---)`, asterisks `(***)` or underscores `(___)`:
 
 ## Blockquotes
 
