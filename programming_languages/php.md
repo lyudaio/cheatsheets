@@ -60,6 +60,7 @@ PHP supports the following conditional statements:
 - If...else statement
 - If...elseif...else statement
 - Switch statement
+- Match expression (improved switch statement in PHP 8.0+)
 
 ```php
     // If statement
@@ -94,6 +95,13 @@ PHP supports the following conditional statements:
         default:
             echo "a is not 10 or 20";
             break;
+    }
+
+    // Match expression (updated switches)
+    match ($a) {
+        10 => echo "a is 10",
+        20 => echo "a is 20",
+        default => echo "a is not 10 or 20",
     }
 ```
 
