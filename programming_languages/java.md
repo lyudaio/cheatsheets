@@ -9,8 +9,9 @@
 
 ## Variables
 
-- Variables must be declared with a data type before use (See [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html))
-- Primitive Data types and limitations:
+Variables must be declared with a data type before use (See [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html))
+
+- **Primitive Data types and limitations:**
   | Data Type | Size | Value | Default Value (for fields) | Description |
   | --------- | ---- | ----------------------------------------------- | --------------------------- | ----------- |
   | `boolean` | 1 bit | `true` or `false` | `false` | Represents a true/false value |
@@ -23,7 +24,9 @@
   | `short` | 2 bytes | -2^15 to 2^15-1 | `0` | Represents a 16-bit integer |
   | `long` | 8 bytes | -2^63 to 2^63-1 | `0L` | Represents a 64-bit integer |
 
-- [`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. To support mutable strings, Java provides [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html). However, since String objects are immutable, they can be shared.
+### Strings are immutable
+
+[`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. To support mutable strings, Java provides [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html).
 
 For instance, the following two statements are equivalent:
 
@@ -56,9 +59,14 @@ System.out.println(modified); // prints "bbnbnb"
 
 In this example, we create a new String object called modified from the original string by replacing all occurrences of the character `'a'` with `'b'`. Since the String class is immutable, the original string remains unchanged.
 
-- In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values.
+#### Fields
 
-- Use `final` keyword to declare immutable constants
+In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values.
+
+#### Final Declarations
+
+Use `final` keyword to declare immutable constants
+
 - Examples:
 
 ```java
