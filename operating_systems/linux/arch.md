@@ -2,7 +2,7 @@
 
 ## General System Information
 
-- Display system information: `cat /etc/os-release` or `cat /lib/os-release`
+- Display system information: `cat /etc/os-release` || `cat /lib/os-release
 - Display kernel information: `uname -a`
 - Display hostname: `hostname`
 - Display system uptime: `uptime`
