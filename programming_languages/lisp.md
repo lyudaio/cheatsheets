@@ -83,5 +83,3 @@ Lisp is a family of programming languages that have been used in many applicatio
 ```
 
 For more information on Lisp programming, please refer to the [Common Lisp Hyperspec](http://www.lispworks.com/documentation/HyperSpec/Front/index.htm).
-
-END_OF_MESSAGE
