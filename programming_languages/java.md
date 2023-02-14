@@ -9,17 +9,21 @@
 
 ## Variables
 
-  | Data Type | Size | Value |
-  | --------- | ---- | ----------------------------------------------- |
-  | `boolean` | 1 bit | `true` or `false` |
-  | `int` | 4 bytes | -2^31 to 2^31-1 |
-  | `float` | 4 bytes | up to 6-7 digits; must suffix 'f' to the number |
-  | `double` | 8 bytes | up to 15 digits |
-  | `char` | 2 bytes | single character/letter/Unicode |
-  | `String` | varies | sequence of characters |
-  | `byte` | 1 byte | -128 to 127 |
-  | `short` | 2 bytes | -2^15 to 2^15-1 |
-  | `long` | 8 bytes | -2^63 to 2^63-1 |
+- Variables must be declared with a data type before use
+- Data types and limitations:
+  | Data Type | Size | Value | Default Value (for fields) | Description |
+  | --------- | ---- | ----------------------------------------------- | --------------------------- | ----------- |
+  | `boolean` | 1 bit | `true` or `false` | `false` | Represents a true/false value |
+  | `int` | 4 bytes | -2^31 to 2^31-1 | `0` | Represents a 32-bit integer |
+  | `float` | 4 bytes | up to 6-7 digits; must suffix 'f' to the number | `0.0f` | Represents a single-precision floating point number |
+  | `double` | 8 bytes | up to 15 digits | `0.0d` | Represents a double-precision floating point number |
+  | `char` | 2 bytes | single character/letter/Unicode | `'\u0000'` | Represents a Unicode character |
+  | `String` | varies | sequence of characters | `null` | Represents a string of text |
+  | `byte` | 1 byte | -128 to 127 | `0` | Represents an 8-bit integer |
+  | `short` | 2 bytes | -2^15 to 2^15-1 | `0` | Represents a 16-bit integer |
+  | `long` | 8 bytes | -2^63 to 2^63-1 | `0L` | Represents a 64-bit integer |
+
+- In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values. Below is a chart that shows the default values for the different data types in Java.
 
 - Use `final` keyword to declare immutable constants
 - Examples:
@@ -86,7 +90,7 @@
 - Fields (structure) and methods (behavior) can be found inside classes
 - A class can also have a constructor, which a special method that initializes the state of an object
 - An instance is an object that is created from a class
-- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword) 
+- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword)
 - Examples:
 
 ```java
@@ -117,23 +121,21 @@
       public static void main(String[] args) {
           // Creating an instance of Student class
           Student javaLearner = new Student(1, "John");
-          
+
           // Calling instance method
           javaLearner.displayDetails();
-          
+
           // Calling static method
           Student.displayJavaMessage();
       }
   }
 ```
 
-
 ## Object-Oriented Programming (OOP)
 
 - A programming paradigm that relies on the concept of classes and objects
 - Helps to structure and organize code into reusable, modular components, making it easier to maintain and extend the code over time
 - The main principles promoted by OOP are abstraction, encapsulation, inheritance and polymorphism
-
 
 ## Abstract Classes
 
@@ -142,7 +144,7 @@
 - Provides a common structure and behavior for its subclasses
 - Can contain abstract methods, which are methods that are declared but not implemented, apart from concrete methods
 - Examples:
-  
+
 ```java
 abstract class Vehicle {
     abstract void startEngine();
@@ -161,7 +163,6 @@ class Truck extends Vehicle {
 }
 ```
 
-
 ## Interfaces
 
 - An interface can be thought of as a set of rules (a contract)
@@ -170,6 +171,7 @@ class Truck extends Vehicle {
 - Interfaces allow objects of different types to be used interchangeably as long as they implement the same interface, making it easier to write code that works with objects of different types
 - Apart from abstract methods to be implemented, an interface can also contain default methods (methods with a default implementation) and constant fields
 - Examples:
+
 ```java
 interface Printable {
     void print();
@@ -208,6 +210,7 @@ class Document implements Printable {
 
 - The `this` keyword in Java is a reference to the current object, while `super` is a reference to the parent class of the current object
 - Examples:
+
 ```java
 class Animal {
     public void eat() {
@@ -240,16 +243,17 @@ class Main {
 
 - Method overloading is a feature where you can define multiple methods with the same name but with different parameters
 - Examples:
+
 ```java
 class Calculator {
     public int add(int x, int y) {
         return x + y;
     }
-    
+
     public double add(double x, double y) {
         return x + y;
     }
-    
+
     public int add(int x, int y, int z) {
         return x + y + z;
     }
@@ -258,6 +262,7 @@ class Calculator {
 
 - Method overriding is a feature where a subclass provides a specific implementation of a method that is already provided by its parent class
 - Examples:
+
 ```java
 class Animal {
     public void makeSound() {
@@ -273,11 +278,11 @@ class Dog extends Animal {
 }
 ```
 
-
 ## Abstraction
 
 - Abstraction refers to the act of creating a simplified representation of a more complex object or system
 - Examples:
+
 ```java
 interface Vehicle {
     void start();
@@ -287,12 +292,12 @@ class Car implements Vehicle {
 }
 ```
 
-
 ## Encapsulation
 
 - Hides internal data and exposes the necessary functionalities through public methods
 - The main purpose of encapsulation is to help you (or others) safely make changes to one part of your program without damaging other parts
 - Examples:
+
 ```java
 public class Car {
     // Private fields are encapsulated and cannot be accessed directly from outside Car
@@ -318,11 +323,11 @@ public class Car {
 }
 ```
 
-
 ## Inheritance
 
 - Allows a new class to be based on an existing class, inheriting its fields and methods
-- Examples: 
+- Examples:
+
 ```java
 class Animal {
     void eat() {
@@ -345,13 +350,13 @@ public class Main {
 }
 ```
 
-
 ## Polymorphism
 
 - Refers to the ability of an object to take on many forms
 - Polymorphism is usually achieved through method overriding and overloading
 - Examples:
-```java 
+
+```java
 class Animal {
     public void makeSound() {
         System.out.println("The animal makes a sound");
