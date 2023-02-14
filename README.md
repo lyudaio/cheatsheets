@@ -57,7 +57,7 @@ Each cheatsheet includes all the essential information you need to get started, 
     - [RHEL](https://cheatsheets.lyuda.io/operating_systems/linux/rhel)
     - [OpenSUSE](https://cheatsheets.lyuda.io/operating_systems/linux/opensuse)
     - [Ubuntu](https://cheatsheets.lyuda.io/operating_systems/linux/ubuntu)
-    - [Tools](https://cheatsheets.lyuda.io/operating_systems/linux/tools)
+    - **Tools**
       - [df](https://cheatsheets.lyuda.io/operating_systems/linux/tools/df)
       - [git](https://cheatsheets.lyuda.io/operating_systems/linux/tools/git)
       - [grep](https://cheatsheets.lyuda.io/operating_systems/linux/tools/grep)
@@ -97,7 +97,6 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Solr](https://cheatsheets.lyuda.io/databases/solr)
   - [SQLite](https://cheatsheets.lyuda.io/databases/sqlite)
   - [SQL Server](https://cheatsheets.lyuda.io/databases/sqlserver)
-
 
 ## Contributing
 
