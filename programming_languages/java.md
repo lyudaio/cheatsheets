@@ -26,15 +26,9 @@ Variables must be declared with a data type before use (See [Primitive Data Type
 
 ### Strings are immutable
 
-[`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. To support mutable strings, Java provides [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html).
+[`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. String literals have to be encompassed in double quotes. 
 
-For instance, the following two statements are equivalent:
-
-```java
-String str = "abc";
-char[] data = {'a', 'b', 'c'};
-String str2 = new String(data);
-```
+To support mutable strings, Java provides both [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) and [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html), though it is worth mentioning that single-threated Java application [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) are preferred. 
 
 Here are some examples of how strings can be used:
 
