@@ -87,7 +87,7 @@
 - Fields (structure) and methods (behavior) can be found inside classes
 - A class can also have a constructor, which a special method that initializes the state of an object
 - An instance is an object that is created from a class
-- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword)
+- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword) 
 - Examples:
 
 ```java
@@ -118,21 +118,23 @@
       public static void main(String[] args) {
           // Creating an instance of Student class
           Student javaLearner = new Student(1, "John");
-
+          
           // Calling instance method
           javaLearner.displayDetails();
-
+          
           // Calling static method
           Student.displayJavaMessage();
       }
   }
 ```
 
+
 ## Object-Oriented Programming (OOP)
 
 - A programming paradigm that relies on the concept of classes and objects
 - Helps to structure and organize code into reusable, modular components, making it easier to maintain and extend the code over time
 - The main principles promoted by OOP are abstraction, encapsulation, inheritance and polymorphism
+
 
 ## Abstract Classes
 
@@ -141,7 +143,7 @@
 - Provides a common structure and behavior for its subclasses
 - Can contain abstract methods, which are methods that are declared but not implemented, apart from concrete methods
 - Examples:
-
+  
 ```java
 abstract class Vehicle {
     abstract void startEngine();
@@ -160,6 +162,7 @@ class Truck extends Vehicle {
 }
 ```
 
+
 ## Interfaces
 
 - An interface can be thought of as a set of rules (a contract)
@@ -168,7 +171,6 @@ class Truck extends Vehicle {
 - Interfaces allow objects of different types to be used interchangeably as long as they implement the same interface, making it easier to write code that works with objects of different types
 - Apart from abstract methods to be implemented, an interface can also contain default methods (methods with a default implementation) and constant fields
 - Examples:
-
 ```java
 interface Printable {
     void print();
@@ -203,11 +205,10 @@ class Document implements Printable {
 }
 ```
 
-## This and super keywords
+## Keywords 'this' and 'super'
 
 - The `this` keyword in Java is a reference to the current object, while `super` is a reference to the parent class of the current object
 - Examples:
-
 ```java
 class Animal {
     public void eat() {
@@ -230,8 +231,8 @@ class Dog extends Animal {
 class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.eatWithSuper(); // prints "The animal is eating."
-        dog.eatWithThis(); // prints "The dog is eating."
+        dog.eatWithSuper(); // Prints "The animal is eating."
+        dog.eatWithThis(); // Prints "The dog is eating."
     }
 }
 ```
@@ -240,17 +241,16 @@ class Main {
 
 - Method overloading is a feature where you can define multiple methods with the same name but with different parameters
 - Examples:
-
 ```java
 class Calculator {
     public int add(int x, int y) {
         return x + y;
     }
-
+    
     public double add(double x, double y) {
         return x + y;
     }
-
+    
     public int add(int x, int y, int z) {
         return x + y + z;
     }
@@ -259,7 +259,6 @@ class Calculator {
 
 - Method overriding is a feature where a subclass provides a specific implementation of a method that is already provided by its parent class
 - Examples:
-
 ```java
 class Animal {
     public void makeSound() {
@@ -275,46 +274,56 @@ class Dog extends Animal {
 }
 ```
 
+
 ## Abstraction
 
 - Abstraction refers to the act of creating a simplified representation of a more complex object or system
 - Examples:
-
 ```java
 interface Vehicle {
-  void start();
-  void stop();
+    void start();
+}
+class Car implements Vehicle {
+    // Some sort of complex implementation for start() method, but we don't need to worry about it when using Vehicle interface
 }
 ```
+
 
 ## Encapsulation
 
-- Hides data and exposes necessary functionality via methods
+- Hides internal data and exposes the necessary functionalities through public methods
+- The main purpose of encapsulation is to help you (or others) safely make changes to one part of your program without damaging other parts
 - Examples:
-
 ```java
-class BankAccount {
-  private double balance;
+public class Car {
+    // Private fields are encapsulated and cannot be accessed directly from outside Car
+    // The methods, on the other hand, provide a public interface for interacting with a Car object
+    private int speed;
+    private boolean engineRunning;
 
-  public void deposit(double amount) {
-    balance += amount;
-  }
+    public void startEngine() {
+        engineRunning = true;
+    }
 
-  public void withdraw(double amount) {
-    balance -= amount;
-  }
+    public void stopEngine() {
+        engineRunning = false;
+    }
 
-  public double getBalance() {
-    return balance;
-  }
+    public void setSpeed(int newSpeed) {
+        if (engineRunning) {
+            speed = newSpeed;
+        } else {
+            System.out.println("Cannot set speed - engine is not running");
+        }
+    }
 }
 ```
+
 
 ## Inheritance
 
 - Allows a new class to be based on an existing class, inheriting its fields and methods
-- Examples:
-
+- Examples: 
 ```java
 class Animal {
     void eat() {
@@ -331,26 +340,45 @@ class Dog extends Animal {
 public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.eat(); // prints "Animal is eating"
-        dog.bark(); // prints "Dog is barking"
+        dog.eat(); // Dog inherits eat() method
+        dog.bark();
     }
 }
 ```
 
+
 ## Polymorphism
 
-- The ability of an object to take on many forms
+- Refers to the ability of an object to take on many forms
+- Polymorphism is usually achieved through method overriding and overloading
 - Examples:
+```java 
+class Animal {
+    public void makeSound() {
+        System.out.println("The animal makes a sound");
+    }
+}
 
-```java
-class Math {
-  int add(int a, int b) {
-    return a + b;
-  }
+class Cat extends Animal {
+    public void makeSound() {
+        System.out.println("Cat sound");
+    }
+}
 
-  double add(double a, double b) {
-    return a + b;
-  }
+class Dog extends Animal {
+    public void makeSound() {
+        System.out.println("Dog sound");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        // Animal can take on different forms
+        Animal animal1 = new Cat();
+        Animal animal2 = new Dog();
+        animal1.makeSound();
+        animal2.makeSound();
+    }
 }
 ```
 
