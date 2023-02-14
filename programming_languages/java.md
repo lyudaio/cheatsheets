@@ -9,7 +9,7 @@
 
 ## Variables
 
-- Variables must be declared with a data type before use
+- Variables must be declared with a data type before use (See [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html))
 - Data types and limitations:
   | Data Type | Size | Value | Default Value (for fields) | Description |
   | --------- | ---- | ----------------------------------------------- | --------------------------- | ----------- |
