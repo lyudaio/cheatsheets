@@ -10,7 +10,7 @@
 ## Variables
 
 - Variables must be declared with a data type before use (See [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html))
-- Data types and limitations:
+- Primitive Data types and limitations:
   | Data Type | Size | Value | Default Value (for fields) | Description |
   | --------- | ---- | ----------------------------------------------- | --------------------------- | ----------- |
   | `boolean` | 1 bit | `true` or `false` | `false` | Represents a true/false value |
