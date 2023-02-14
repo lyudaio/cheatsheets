@@ -43,8 +43,7 @@ String c = "abc".substring(2, 3); // c is now "c"
 String d = cde.substring(1, 2); // d is now "d"
 ```
 
-Since Java's String class is immutable, meaning its values cannot be changed after creation.
-However, we can create a new String object from an existing one, with some modifications.
+Since Java's String class is immutable, we can create a new String object from an existing one, with some modifications.
 
 For instance, the following code replaces all occurrences of the character 'a' with 'b' in a given string:
 
