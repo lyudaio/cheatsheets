@@ -384,8 +384,8 @@ class Main {
 
 ## Access Modifiers
 
-- Access modifiers are keywords that determine the level of access to a variable, method or class.
-- In Java, there are four access modifiers: `public`, `private`, `protected` and `default`.
+- Access modifiers are keywords that determine the level of access to a variable, method or class
+- In Java, there are four access modifiers: `public`, `private`, `protected` and `default` (no modifier, also known as package private)
 
 | Access modifier | Within the same class | Within the same package | Subclasses | Global |
 | --------------- | --------------------- | ----------------------- | ---------- | ------ |
