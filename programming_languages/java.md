@@ -11,17 +11,17 @@
 
 - Variables must be declared with a data type before use
 - Data types and limitations:
-  | Data Type | Size   | Yes/Reference | Value                                           |
+  | Data Type | Size | Yes/Reference | Value |
   | --------- | ------ | :-----------: | ----------------------------------------------- |
-  | `boolean` | 1 bit  |      Yes      | `true` or `false`                               |
-  | `int`     | Yes    |      Yes      | -2 billion to 2 billion                         |
-  | `float`   | Yes    |      Yes      | up to 6-7 digits; must suffix 'f' to the number |
-  | `double`  | Yes    |      Yes      | up to 15 digits                                 |
-  | `char`    | Yes    |      Yes      | single character/letter/ASCII                   |
-  | `String`  | varies |   reference   | sequence of characters                          |
-  | `byte`    | 1 byte |      Yes      | -128 to 127                                     |
-  | `short`   | Yes    |      Yes      | -32,768 to 32,767                               |
-  | `long`    | Yes    |      Yes      | -9 quintillion to 9 quintillion                 |
+  | `boolean` | 1 bit | Yes | `true` or `false` |
+  | `int` | Yes | Yes | -2 billion to 2 billion |
+  | `float` | Yes | Yes | up to 6-7 digits; must suffix 'f' to the number |
+  | `double` | Yes | Yes | up to 15 digits |
+  | `char` | Yes | Yes | single character/letter/ASCII |
+  | `String` | varies | reference | sequence of characters |
+  | `byte` | 1 byte | Yes | -128 to 127 |
+  | `short` | Yes | Yes | -32,768 to 32,767 |
+  | `long` | Yes | Yes | -9 quintillion to 9 quintillion |
 - Use `final` keyword to declare immutable constants
 - Examples:
 
@@ -87,7 +87,7 @@
 - Fields (structure) and methods (behavior) can be found inside classes
 - A class can also have a constructor, which a special method that initializes the state of an object
 - An instance is an object that is created from a class
-- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword) 
+- Methods can operate on instances of classes (instance methods) or operate on the class as whole (static methods, which are declared with the `static` keyword)
 - Examples:
 
 ```java
@@ -118,23 +118,21 @@
       public static void main(String[] args) {
           // Creating an instance of Student class
           Student javaLearner = new Student(1, "John");
-          
+
           // Calling instance method
           javaLearner.displayDetails();
-          
+
           // Calling static method
           Student.displayJavaMessage();
       }
   }
 ```
 
-
 ## Object-Oriented Programming (OOP)
 
 - A programming paradigm that relies on the concept of classes and objects
 - Helps to structure and organize code into reusable, modular components, making it easier to maintain and extend the code over time
 - The main principles promoted by OOP are abstraction, encapsulation, inheritance and polymorphism
-
 
 ## Abstract Classes
 
@@ -143,7 +141,7 @@
 - Provides a common structure and behavior for its subclasses
 - Can contain abstract methods, which are methods that are declared but not implemented, apart from concrete methods
 - Examples:
-  
+
 ```java
 abstract class Vehicle {
     abstract void startEngine();
@@ -162,7 +160,6 @@ class Truck extends Vehicle {
 }
 ```
 
-
 ## Interfaces
 
 - An interface can be thought of as a set of rules (a contract)
@@ -171,6 +168,7 @@ class Truck extends Vehicle {
 - Interfaces allow objects of different types to be used interchangeably as long as they implement the same interface, making it easier to write code that works with objects of different types
 - Apart from abstract methods to be implemented, an interface can also contain default methods (methods with a default implementation) and constant fields
 - Examples:
+
 ```java
 interface Printable {
     void print();
@@ -209,6 +207,7 @@ class Document implements Printable {
 
 - The `this` keyword in Java is a reference to the current object, while `super` is a reference to the parent class of the current object
 - Examples:
+
 ```java
 class Animal {
     public void eat() {
@@ -241,16 +240,17 @@ class Main {
 
 - Method overloading is a feature where you can define multiple methods with the same name but with different parameters
 - Examples:
+
 ```java
 class Calculator {
     public int add(int x, int y) {
         return x + y;
     }
-    
+
     public double add(double x, double y) {
         return x + y;
     }
-    
+
     public int add(int x, int y, int z) {
         return x + y + z;
     }
@@ -259,6 +259,7 @@ class Calculator {
 
 - Method overriding is a feature where a subclass provides a specific implementation of a method that is already provided by its parent class
 - Examples:
+
 ```java
 class Animal {
     public void makeSound() {
@@ -274,11 +275,11 @@ class Dog extends Animal {
 }
 ```
 
-
 ## Abstraction
 
 - Abstraction refers to the act of creating a simplified representation of a more complex object or system
 - Examples:
+
 ```java
 interface Vehicle {
   void start();
@@ -286,11 +287,11 @@ interface Vehicle {
 }
 ```
 
-
 ## Encapsulation
 
 - Hides data and exposes necessary functionality via methods
 - Examples:
+
 ```java
 class BankAccount {
   private double balance;
@@ -309,11 +310,11 @@ class BankAccount {
 }
 ```
 
-
 ## Inheritance
 
 - Allows a new class to be based on an existing class, inheriting its fields and methods
-- Examples: 
+- Examples:
+
 ```java
 class Animal {
     void eat() {
@@ -336,12 +337,12 @@ public class Main {
 }
 ```
 
-
 ## Polymorphism
 
 - The ability of an object to take on many forms
 - Examples:
-```java 
+
+```java
 class Math {
   int add(int a, int b) {
     return a + b;
@@ -353,12 +354,11 @@ class Math {
 }
 ```
 
-
 ## Access Modifiers
 
 - Access modifiers are keywords that determine the level of access to a variable, method or class.
 - In Java, there are four access modifiers: `public`, `private`, `protected` and `default`.
-  
+
 | Access modifier | Within the same class | Within the same package | Subclasses | Global |
 | --------------- | --------------------- | ----------------------- | ---------- | ------ |
 | `public`        | Yes                   | Yes                     | Yes        | Yes    |
