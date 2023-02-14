@@ -23,7 +23,7 @@
   | `short` | 2 bytes | -2^15 to 2^15-1 | `0` | Represents a 16-bit integer |
   | `long` | 8 bytes | -2^63 to 2^63-1 | `0L` | Represents a 64-bit integer |
 
-- In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values. Below is a chart that shows the default values for the different data types in Java.
+- In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values.
 
 - Use `final` keyword to declare immutable constants
 - Examples:
