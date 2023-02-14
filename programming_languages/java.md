@@ -55,7 +55,7 @@ System.out.println(original); // prints "banana"
 System.out.println(modified); // prints "bbnbnb"
 ```
 
-In this example, we create a new String object called modified from the original string by replacing all occurrences of the character 'a' with 'b'. Since the String class is immutable, the original string remains unchanged.
+In this example, we create a new String object called modified from the original string by replacing all occurrences of the character `'a'` with `'b'`. Since the String class is immutable, the original string remains unchanged.
 
 - In Java, fields don't always require an initial value when they are declared. If a field is declared but not initialized, the compiler will set it to a default value that is typically zero or null, depending on the data type. It's generally considered poor programming practice to rely on these default values.
 
