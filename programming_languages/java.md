@@ -9,19 +9,18 @@
 
 ## Variables
 
-- Variables must be declared with a data type before use
-- Data types and limitations:
-  | Data Type | Size | Yes/Reference | Value |
-  | --------- | ------ | :-----------: | ----------------------------------------------- |
-  | `boolean` | 1 bit | Yes | `true` or `false` |
-  | `int` | Yes | Yes | -2 billion to 2 billion |
-  | `float` | Yes | Yes | up to 6-7 digits; must suffix 'f' to the number |
-  | `double` | Yes | Yes | up to 15 digits |
-  | `char` | Yes | Yes | single character/letter/ASCII |
-  | `String` | varies | reference | sequence of characters |
-  | `byte` | 1 byte | Yes | -128 to 127 |
-  | `short` | Yes | Yes | -32,768 to 32,767 |
-  | `long` | Yes | Yes | -9 quintillion to 9 quintillion |
+  | Data Type | Size | Value |
+  | --------- | ---- | ----------------------------------------------- |
+  | `boolean` | 1 bit | `true` or `false` |
+  | `int` | 4 bytes | -2^31 to 2^31-1 |
+  | `float` | 4 bytes | up to 6-7 digits; must suffix 'f' to the number |
+  | `double` | 8 bytes | up to 15 digits |
+  | `char` | 2 bytes | single character/letter/Unicode |
+  | `String` | varies | sequence of characters |
+  | `byte` | 1 byte | -128 to 127 |
+  | `short` | 2 bytes | -2^15 to 2^15-1 |
+  | `long` | 8 bytes | -2^63 to 2^63-1 |
+
 - Use `final` keyword to declare immutable constants
 - Examples:
 
