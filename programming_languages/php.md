@@ -168,6 +168,84 @@ PHP supports object-oriented programming through classes and objects. A class is
     echo $person->greet();
 ```
 
+## Interfaces
+
+An Interface in PHP allows you to define specific methods that a given class or classes should implement. Multiple classes can use the same interface. This is called *polymorphism*.
+
+```php
+    interface AreaInterface {
+        public function getArea();
+    }
+
+    class Circle implements AreaInterface {
+        private $radius;
+
+        public function __construct($radius) {
+            $this->radius = $radius;
+        }
+
+        public function getArea() {
+            return pi() * $this->radius * $this->radius;
+        }
+    }
+
+    class Rectangle implements AreaInterface {
+        private $width;
+        private $height;
+
+        public function __construct($width, $height) {
+            $this->width = $width;
+            $this->height = $height;
+        }
+
+        public function getArea() {
+            return $this->width * $this->height;
+        }
+    }
+```
+
+Classes that implement an interface are required to implement all methods defined in the interface.
+
+## Traits
+
+PHP is a single-inheritence language, meaning a child class can only inherit from a single parent. If you need to inherit multiple behaviors or methods, you can use a Trait.
+
+Say for example, you need to log a value. You can re-use a logging method by defining it in a Trait.
+
+```php
+    trait Logger {
+        public function log($value) {
+            echo "Log: " . $value;
+        }
+    }
+
+    class Person {
+        use Logger;
+        
+        public $name;
+        public $age;
+        public function __construct() {
+            $this->name = "John Doe";
+            $this->age = 30;
+            $this->log($this->name . ' is ' . $this->age . ' years old.'
+        }
+    }
+
+    class Animal {
+        use Logger;
+        
+        public $name;
+        public $species;
+        public function __construct() {
+            $this->name = "Spot";
+            $this->species = "Dog";
+            $this->log($this->name . ' is a' . $this->species . '.';
+        }
+    }
+```
+
+Here, the method `log()` is defined in a Trait and is used by both the `Person` and `Animal` classes in slightly different ways.
+
 ## File Input/Output
 
 PHP supports reading from and writing to files on the server. The following example demonstrates how to write a string to a file.
