@@ -78,15 +78,15 @@ print("Hello, World!")
 
 To create a horizontal rule, use three or more hyphens, asterisks or underscores:
 
-```bash
+~~~bash
 
 ---
 
----
+***
 
----
+___
 
-````
+~~~
 
 ## Blockquotes
 
