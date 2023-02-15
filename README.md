@@ -1,6 +1,6 @@
-# Welcome to the Lyuda Cheatsheet Repository
+# Lyuda Cheatsheet Repository
 
-Welcome to the ultimate source for all your programming needs. Whether you're just starting out or you're a seasoned pro, our cheatsheets have got you covered. Our cheatsheets are designed to help you quickly reference important syntax, commands, and concepts for various programming languages and tools.
+Glad you made it to our little corner of the interwebs. We know that being a programmer can be tough. It's a constantly-changing landscape, and it can be hard to keep up. That's why we've put together this cheatsheet repository, so you can get all the info you need in one place.
 
 ## Our Cheatsheets
 
