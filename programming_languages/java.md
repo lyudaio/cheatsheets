@@ -432,3 +432,46 @@ class Main {
 | `protected`     | Yes                   | Yes                     | Yes        | No     |
 | `default`       | Yes                   | Yes                     | No         | No     |
 | `private`       | Yes                   | No                      | No         | No     |
+
+
+## Exceptions
+
+- Exceptions are events which occur during the execution of a program and disrupt the normal flow of the program's instructions
+- Exceptions can be *checked* (checked at compile-time) or *unchecked* (runtime event)
+- Handling exceptions is important as it enables the program to recover from errors and provides a better user experience
+- Exceptions can be handled by try-catch blocks (or be declared on a method signature to pass its handling to the caller)
+- The `try` block contains the code that might throw an exception
+- The `catch` block contains the code that handles the potential exception
+- Also, the `finally` block contains code that will always be executed regardless of whether an exception is thrown or not
+- Examples:
+```java
+public class DivideByZeroExample {
+    public static void main(String[] args) {
+        int a = 10, 
+        int b = 0;
+        try {
+            int c = a / b; // Dividing by zero will throw an ArithmeticException
+            System.out.println("Result: " + c);
+        } catch (ArithmeticException ae) {
+            // Exception is handled here
+        } finally {
+            System.out.println("Finally block is being executed.");
+        }
+    }
+}
+```
+```java
+public class CallerExample {
+    public static void main(String[] args) {
+        try {
+            runDangerousMethod();
+        } catch (Exception e) {
+            // Exception is handled here
+        }
+    }
+    
+    public static void runDangerousMethod() throws Exception {
+        // Code that may throw an exception
+    }
+}
+```
