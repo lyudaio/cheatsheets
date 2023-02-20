@@ -49,7 +49,7 @@ find . -type f -print0 | xargs -0 zstd -19
 
 Test integrity of compressed file:
 
-```
+```bash
 zstd -t file.txt.zst
 ```
 
