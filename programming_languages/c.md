@@ -1,4 +1,49 @@
-# Variables
+# Introduction to C
+
+C is a general-purpose programming language that was developed in the 1970s by Dennis Ritchie at Bell Labs. It is a compiled language, meaning that the source code is translated into machine code before being executed. C is a powerful language that is widely used for system programming, embedded systems, and high-performance applications.
+
+C has a concise syntax that allows for efficient and powerful code. It is a low-level language that provides direct access to memory and hardware, making it a popular choice for developing operating systems, device drivers, and other system-level software.
+
+The latest LTS (Long Term Support) version of C is C17, released in 2018. It introduced several new features, including improvements to the standard library and support for Unicode characters.
+
+## Basic Syntax
+
+The basic syntax of C is similar to many other programming languages. A C program consists of a series of functions, each of which contains a sequence of statements. The main function is the entry point of the program and is called when the program starts.
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
+
+- This program uses the `printf` function to print the message "Hello, world!" to the console.
+
+## Data Types
+
+| Data Type            | Description                                   | Format Specifier        | Size (bytes) | Range                           |
+| -------------------- | --------------------------------------------- | ----------------------- | ------------ | ------------------------------- |
+| `char`               | A single character                            | `%c`                    | 1            | -128 to 127 or 0 to 255         |
+| `signed char`        | A signed character                            | `%c`                    | 1            | -128 to 127                     |
+| `unsigned char`      | An unsigned character                         | `%c`                    | 1            | 0 to 255                        |
+| `short`              | A short integer                               | `%hd` or `%hi`          | 2            | -32,768 to 32,767               |
+| `unsigned short`     | An unsigned short integer                     | `%hu`                   | 2            | 0 to 65,535                     |
+| `int`                | An integer                                    | `%d` or `%i`            | 4            | -2,147,483,648 to 2,147,483,647 |
+| `unsigned int`       | An unsigned integer                           | `%u`                    | 4            | 0 to 4,294,967,295              |
+| `long`               | A long integer                                | `%ld` or `%li`          | 4 or 8\*     | -2,147,483,648 to 2,147,483,647 |
+| `unsigned long`      | An unsigned long integer                      | `%lu`                   | 4 or 8\*     | 0 to 4,294,967,295              |
+| `long long`          | A long long integer                           | `%lld` or `%lli`        | 8            | -(2^63) to (2^63)-1             |
+| `unsigned long long` | An unsigned long long integer                 | `%llu`                  | 8            | 0 to (2^64)-1                   |
+| `float`              | A single-precision floating-point number      | `%f` or `%e` or `%g`    | 4            | 3.4E-38 to 3.4E+38              |
+| `double`             | A double-precision floating-point number      | `%lf` or `%le` or `%lg` | 8            | 1.7E-308 to 1.7E+308            |
+| `long double`        | A long double-precision floating-point number | `%Lf` or `%Le` or `%Lg` | 12 or 16\*   | 3.4E-4932 to 1.1E+4932          |
+| `void`               | A generic pointer                             | N/A                     | N/A          | N/A                             |
+
+- The size of long and long double may vary depending on the compiler and platform.
+
+## Variables
 
 Variables in C are declared with a type and a name, and can be assigned a value. The following are some of the basic data types in C:
 
