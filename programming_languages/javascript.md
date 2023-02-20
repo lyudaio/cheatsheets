@@ -178,3 +178,15 @@ do {
   i++;
 } while (i < 10);
 ```
+
+## Additional Resources
+
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript): MDN is an excellent resource for learning more about JavaScript. It includes detailed documentation on the language itself, as well as tutorials and guides on specific topics.
+
+- [JavaScript.info](https://javascript.info/): JavaScript.info is a comprehensive guide to JavaScript that covers the language from the basics to advanced topics. It includes interactive exercises and examples to help you learn and practice.
+
+- [W3Schools](https://www.w3schools.com/js/): W3Schools is a popular website for learning web development, including JavaScript. It includes tutorials and examples on a wide range of topics, from basic syntax to advanced techniques.
+
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/javascript): Stack Overflow is a community-driven Q&A site for programmers. It includes a wealth of information on JavaScript, from common questions to advanced topics.
+
+- [GitHub](https://github.com/): GitHub is a popular code hosting platform where you can find a wide range of open source JavaScript projects. It's a great place to learn from other developers and contribute to the community.
