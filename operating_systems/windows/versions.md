@@ -1,4 +1,4 @@
-# Cheatsheet of all Windows versions, both consumer-level and server-level:
+# Cheatsheet of all Windows versions, both consumer-level and server-level in the last 10 years
 
 | Windows Version           | Release Date      | End of Support   |
 | ------------------------- | ----------------- | ---------------- |
