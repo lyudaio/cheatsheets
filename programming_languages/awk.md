@@ -12,6 +12,19 @@ pattern { action }
 
 Where `pattern` is a regular expression that is tested against each line of input, and `action` is a set of commands to be executed if the pattern is matched.
 
+## Data Types
+
+| Data Type | Description                                                             |
+| --------- | ----------------------------------------------------------------------- |
+| string    | A sequence of characters                                                |
+| numeric   | A number, either integer or floating-point                              |
+| boolean   | A logical value, either `true` or `false`                               |
+| array     | A collection of values, indexed by integer or string values             |
+| field     | A single field in a record, identified by its position number           |
+| record    | A complete input record, consisting of one or more fields               |
+| regexp    | A regular expression, used for pattern matching                         |
+| function  | A named block of code that can be called from other parts of the script |
+
 ## Variables
 
 AWK has several built-in variables that provide information about each input line:
