@@ -6,16 +6,16 @@ Sed is a powerful command-line tool for stream editing. It is used to transform 
 
 ## Command Options
 
-| Command | Description |
-| --- | --- |
-| `sed [options] [script] [inputfile]` | Execute the sed script on the input file |
-| `-n` | Suppress automatic printing of pattern space |
-| `-e script` | Add the script to the commands to be executed |
-| `-f script-file` | Add the commands contained in the file to the commands to be executed |
-| `-r` | Use extended regular expressions in the script |
-| `-i [suffix]` | Edit files in place |
-| `-s` | Treat input as a single line |
-| `-u` | Use unbuffered output |
+| Command                              | Description                                                           |
+| ------------------------------------ | --------------------------------------------------------------------- |
+| `sed [options] [script] [inputfile]` | Execute the sed script on the input file                              |
+| `-n`                                 | Suppress automatic printing of pattern space                          |
+| `-e script`                          | Add the script to the commands to be executed                         |
+| `-f script-file`                     | Add the commands contained in the file to the commands to be executed |
+| `-r`                                 | Use extended regular expressions in the script                        |
+| `-i [suffix]`                        | Edit files in place                                                   |
+| `-s`                                 | Treat input as a single line                                          |
+| `-u`                                 | Use unbuffered output                                                 |
 
 ## Examples
 
