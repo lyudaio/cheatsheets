@@ -24,13 +24,23 @@ Javascript has the following primitive data types:
 - Undefined: a variable that has been declared, but has no value.
 - Null: explicitly represents the absence of any object value.
 
+| Data Type | Description                                                              | Size (in bytes)                                                                                   |
+| --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| Number    | Represents numeric values, including integers and floating-point numbers | 8                                                                                                 |
+| String    | Represents textual data                                                  | The size of a string is proportional to the length of the string, typically 2 bytes per character |
+| Boolean   | Represents a logical value                                               | 1                                                                                                 |
+| Undefined | Represents an undefined value                                            | 0                                                                                                 |
+| Null      | Represents a null value                                                  | 0                                                                                                 |
+| Object    | Represents a collection of properties and methods                        | Varies                                                                                            |
+| Symbol    | Represents a unique identifier                                           | Varies                                                                                            |
+
 ## Arrays
 
 Arrays are ordered collections of values that can hold any data type. They are declared with square brackets `[]`.
 
 ```javascript
 let numbers = [1, 2, 3];
-let mixed = [1, 'two', false];
+let mixed = [1, "two", false];
 ```
 
 ## Objects
@@ -39,9 +49,9 @@ Objects are collections of key-value pairs. They are declared with curly braces 
 
 ```javascript
 let person = {
-  name: 'John Doe',
+  name: "John Doe",
   age: 30,
-  occupation: 'developer'
+  occupation: "developer",
 };
 ```
 
@@ -122,12 +132,12 @@ A for-in loop is used to iterate over the properties of an object.
 
 ```javascript
 let person = {
-  name: 'John Doe',
-  age: 30
+  name: "John Doe",
+  age: 30,
 };
 
 for (let prop in person) {
-  console.log(prop + ': ' + person[prop]);
+  console.log(prop + ": " + person[prop]);
 }
 ```
 
@@ -136,7 +146,7 @@ for (let prop in person) {
 A for-of loop is used to iterate over the values of an iterable object, such as an array.
 
 ```javascript
-let colors = ['red', 'green', 'blue'];
+let colors = ["red", "green", "blue"];
 
 for (let color of colors) {
   console.log(color);
