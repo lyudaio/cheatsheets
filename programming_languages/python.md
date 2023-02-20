@@ -2,6 +2,18 @@
 
 Python is a popular high-level programming language known for its simplicity, readability, and versatility. It is widely used for web development, data analysis, artificial intelligence, and more.
 
+## Versions
+
+| Version | Initial Release    | End of Life    | Latest Patch Release | Release Date      |
+| ------- | ------------------ | -------------- | -------------------- | ----------------- |
+| 3.10    | October 4, 2021    | October 2026   | 3.10.2               | February 18, 2022 |
+| 3.9     | October 5, 2020    | October 2025   | 3.9.10               | October 4, 2021   |
+| 3.8     | October 14, 2019   | October 2024   | 3.8.12               | July 19, 2021     |
+| 3.7     | June 27, 2018      | June 2023      | 3.7.12               | June 28, 2021     |
+| 3.6     | December 23, 2016  | December 2021  | 3.6.15               | December 23, 2020 |
+| 3.5     | September 13, 2015 | September 2020 | 3.5.10               | March 13, 2017    |
+| 2.7     | April 4, 2010      | January 2020   | 2.7.18               | April 20, 2020    |
+
 ## Basic Syntax
 
 ### Variables and Data Types
