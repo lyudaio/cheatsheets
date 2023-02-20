@@ -1,11 +1,25 @@
-# Basic Syntax
+# Java Programming Language Cheatsheet
 
-- Java is case-sensitive
-- Class names start with a capital letter
-- Method names start with a lowercase letter
-- Use `;` at the end of every statement
-- Code is written inside class and methods
-- `main` method is the entry point of the program
+Java is a popular general-purpose programming language that is widely used for developing enterprise-scale applications, mobile applications, and games. It was first released by Sun Microsystems in 1995 and has since become one of the most widely used programming languages in the world. Java is known for its robustness, platform independence, and security features, making it a popular choice for building applications that require high performance and reliability.
+
+## Supported Versions
+
+| Java Version | Initial Release Date | Latest Patch Release | Release Date      | End of Support |
+| ------------ | -------------------- | -------------------- | ----------------- | -------------- |
+| Java 17 LTS  | September 14, 2021   | 17.0.2               | December 14, 2021 | September 2029 |
+| Java 16 LTS  | March 16, 2021       | 16.0.2               | July 20, 2021     | March 2026     |
+| Java 11 LTS  | September 25, 2018   | 11.0.13              | January 19, 2021  | September 2026 |
+| Java 8 LTS   | March 18, 2014       | 8u302                | July 20, 2021     | December 2030  |
+
+## Basic Syntax
+
+When writing Java code, it's important to follow the language's syntax rules to ensure that your code is readable and easy to understand. Here are some basic syntax rules to keep in mind:
+
+- Java is a case-sensitive language, so make sure to use the correct casing in your code.
+- Class names should always start with a capital letter, while method names should start with a lowercase letter.
+- Remember to use a semicolon (`;`) at the end of every statement to denote the end of the line of code.
+- Code is written inside classes and methods, so be sure to define your code within the appropriate scope.
+- The `main` method is the entry point of the program and is where the program starts execution.
 
 ## Variables
 
@@ -26,9 +40,9 @@ Variables must be declared with a data type before use (See [Primitive Data Type
 
 ### Strings are immutable
 
-[`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. String literals have to be encompassed in double quotes. 
+[`Strings`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) in Java are immutable; their values cannot be changed after they are created. String literals have to be encompassed in double quotes.
 
-To support mutable strings, Java provides both [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) and [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html), though it is worth mentioning that single-threated Java application [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) are preferred. 
+To support mutable strings, Java provides both [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) and [StringBuffers](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html), though it is worth mentioning that single-threated Java application [StringBuilders](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/StringBuilder.html) are preferred.
 
 Here are some examples of how strings can be used:
 
@@ -433,21 +447,21 @@ class Main {
 | `default`       | Yes                   | Yes                     | No         | No     |
 | `private`       | Yes                   | No                      | No         | No     |
 
-
 ## Exceptions
 
 - Exceptions are events which occur during the execution of a program and disrupt the normal flow of the program's instructions
-- Exceptions can be *checked* (checked at compile-time) or *unchecked* (runtime event)
+- Exceptions can be _checked_ (checked at compile-time) or _unchecked_ (runtime event)
 - Handling exceptions is important as it enables the program to recover from errors and provides a better user experience
 - Exceptions can be handled by try-catch blocks (or be declared on a method signature to pass its handling to the caller)
 - The `try` block contains the code that might throw an exception
 - The `catch` block contains the code that handles the potential exception
 - Also, the `finally` block contains code that will always be executed regardless of whether an exception is thrown or not
 - Examples:
+
 ```java
 public class DivideByZeroExample {
     public static void main(String[] args) {
-        int a = 10, 
+        int a = 10,
         int b = 0;
         try {
             int c = a / b; // Dividing by zero will throw an ArithmeticException
@@ -460,6 +474,7 @@ public class DivideByZeroExample {
     }
 }
 ```
+
 ```java
 public class CallerExample {
     public static void main(String[] args) {
@@ -469,9 +484,20 @@ public class CallerExample {
             // Exception is handled here
         }
     }
-    
+
     public static void runDangerousMethod() throws Exception {
         // Code that may throw an exception
     }
 }
 ```
+
+## Additional Resources
+
+- [Official Java Documentation](https://docs.oracle.com/en/java/)
+- [Java Tutorials](https://docs.oracle.com/javase/tutorial/)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/)
+- [Java SE Downloads](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Java API Specification](https://docs.oracle.com/en/java/javase/16/docs/api/index.html)
+- [/r/learnjava](https://reddit.com/r/learnjava)
+
+These resources provide comprehensive and detailed information about the Java programming language, its syntax, libraries, and best practices for writing efficient and maintainable code. They also provide a wealth of examples, tutorials, and code samples to help you get started with Java programming and to deepen your understanding of the language. Whether you're a beginner or an experienced Java developer, these resources are essential references for your Java development projects.
