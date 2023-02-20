@@ -162,3 +162,11 @@ struct Entity e1 = {0,0};
 e1.positionX += 10;
 e1.positionY += 5;
 ```
+
+## Additional Resources
+
+- [The C Programming Language (2nd Edition)](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) - A classic book on C programming by Brian Kernighan and Dennis Ritchie.
+- [C Programming Wikibook](https://en.wikibooks.org/wiki/C_Programming) - A comprehensive online resource on C programming.
+- [C Standard Library reference](https://en.cppreference.com/w/c) - A complete reference for the functions provided by the C standard library.
+- [GNU C Library documentation](https://www.gnu.org/software/libc/manual/) - Documentation for the GNU C Library, which is the standard C library on most GNU/Linux systems.
+- [C FAQ](https://c-faq.com/) - A frequently asked questions guide for C programming.
