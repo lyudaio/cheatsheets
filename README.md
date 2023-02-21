@@ -173,14 +173,6 @@ When contributing, please keep the following guidelines in mind:
 
 If you would like to contribute, please fork the repository, make your changes, and open a pull request. I appreciate your help in making this resource as helpful as possible!
 
-## How to support me
-
-<p align="center">
-  <img src="https://i.imgur.com/GQ2TOv4.png" alt="Buy me a Coffee" height="200" width="200">
-</p>
-
-If you like the work I do here, feel free to [buy me a coffee](https://www.buymeacoffee.com/lyudaio) ❤️, I appreciate all support!
-
 ## License
 
 This repository is licensed under the MIT License.
