@@ -27,7 +27,6 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Julia](https://cheatsheets.lyuda.io/en/programming_languages/julia)
   - [Kotlin](https://cheatsheets.lyuda.io/en/programming_languages/kotlin)
   - [Lisp](https://cheatsheets.lyuda.io/en/programming_languages/lisp)
-  - [LOLCODE](https://cheatsheets.lyuda.io/en/programming_languages/lol)
   - [Perl](https://cheatsheets.lyuda.io/en/programming_languages/perl)
   - [PHP](https://cheatsheets.lyuda.io/en/programming_languages/php)
   - [Python](https://cheatsheets.lyuda.io/en/programming_languages/python)
