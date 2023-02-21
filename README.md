@@ -75,10 +75,24 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Security Resources](https://cheatsheets.lyuda.io/security/security_resources)
   - **Tools**
     - [Aircrack-ng](https://cheatsheets.lyuda.io/security/tools/aircrack-ng)
+    - [BeEF](https://cheatsheets.lyuda.io/security/tools/beef)
+    - [Burp Suite](https://cheatsheets.lyuda.io/security/tools/burpsuite)
+    - [Ettercap](https://cheatsheets.lyuda.io/security/tools/ettercap)
+    - [Hashcat](https://cheatsheets.lyuda.io/security/tools/hashcat)
+    - [Hydra](https://cheatsheets.lyuda.io/security/tools/hydra)
+    - [John the Ripper](https://cheatsheets.lyuda.io/security/tools/johntheripper)
+    - [Maltego](https://cheatsheets.lyuda.io/security/tools/maltego)
+    - [Metasploit](https://cheatsheets.lyuda.io/security/tools/metasploit)
+    - [Nikto](https://cheatsheets.lyuda.io/security/tools/nikto)
     - [Nmap](https://cheatsheets.lyuda.io/security/tools/nmap)
     - [OpenSSL](https://cheatsheets.lyuda.io/security/tools/openssl)
+    - [OpenVAS](https://cheatsheets.lyuda.io/security/tools/openvas)
+    - [Reaver](https://cheatsheets.lyuda.io/security/tools/reaver)
+    - [SET](https://cheatsheets.lyuda.io/security/tools/set)
+    - [Wireshark](https://cheatsheets.lyuda.io/security/tools/wireshark)
 
 - **Databases**
+
   - [Cassandra](https://cheatsheets.lyuda.io/databases/cassandra)
   - [DynamoDB](https://cheatsheets.lyuda.io/databases/dynamodb)
   - [Elasticsearch](https://cheatsheets.lyuda.io/databases/elasticsearch)
@@ -97,6 +111,47 @@ Each cheatsheet includes all the essential information you need to get started, 
   - [Solr](https://cheatsheets.lyuda.io/databases/solr)
   - [SQLite](https://cheatsheets.lyuda.io/databases/sqlite)
   - [SQL Server](https://cheatsheets.lyuda.io/databases/sqlserver)
+
+- **Meta**
+
+  - [Don't Repeat Yourself (DRY)](https://cheatsheets.lyuda.io/productivity/dry)
+  - [ID10T](https://cheatsheets.lyuda.io/productivity/id10t)
+  - [KISS](https://cheatsheets.lyuda.io/productivity/kiss)
+  - [PEBCAK](https://cheatsheets.lyuda.io/productivity/pebcak)
+  - [RTFM](https://cheatsheets.lyuda.io/productivity/rtfm)
+  - [Rubber Duck Debugging](https://cheatsheets.lyuda.io/productivity/rubberduckdebug)
+  - [YAGNI](https://cheatsheets.lyuda.io/productivity/yagni)
+
+- **Infrastructure**
+
+  - [Ansible](https://cheatsheets.lyuda.io/infrastructure/ansible)
+  - [Chef](https://cheatsheets.lyuda.io/infrastructure/chef)
+  - [Cloud-init](https://cheatsheets.lyuda.io/infrastructure/cloud-init)
+  - [CloudFormation](https://cheatsheets.lyuda.io/infrastructure/cloudformation)
+  - **Kubernetes**
+    - [ALB](https://cheatsheets.lyuda.io/infrastructure/kubernetes/alb)
+    - [Helm](https://cheatsheets.lyuda.io/infrastructure/kubernetes/helm)
+    - [kubectl](https://cheatsheets.lyuda.io/infrastructure/kubernetes/kubectl)
+    - [Kustomize](https://cheatsheets.lyuda.io/infrastructure/kubernetes/kustomize)
+  - **Monitoring**
+    - [Alertmanager](https://cheatsheets.lyuda.io/infrastructure/monitoring/alertmanager)
+    - [Grafana](https://cheatsheets.lyuda.io/infrastructure/monitoring/grafana)
+    - [Loki](https://cheatsheets.lyuda.io/infrastructure/monitoring/loki)
+    - [Prometheus](https://cheatsheets.lyuda.io/infrastructure/monitoring/prometheus)
+    - [Promtail](https://cheatsheets.lyuda.io/infrastructure/monitoring/promtail)
+  - **Networking**
+    - [API](https://cheatsheets.lyuda.io/infrastructure/networking/api)
+    - [Firewall](https://cheatsheets.lyuda.io/infrastructure/networking/firewall)
+    - **OSI**
+      - [Application Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/application)
+      - [Data Link Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/datalink)
+      - [Network Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/network)
+      - [OSI Model](https://cheatsheets.lyuda.io/infrastructure/networking/osi/osi)
+      - [Physical Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/physical)
+      - [Presentation Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/presentation)
+      - [Transport Layer](https://cheatsheets.lyuda.io/infrastructure/networking/osi/transport)
+  - [Puppet](https://cheatsheets.lyuda.io/infrastructure/puppet)
+  - [Terraform](https://cheatsheets.lyuda.io/infrastructure/terraform)
 
 ## Contributing
 
