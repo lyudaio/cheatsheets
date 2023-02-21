@@ -74,7 +74,7 @@ hydra -l <username> -P <password list> <target> rdp [options]
 
 Here are some example commands for using Hydra:
 
-### HTTP
+### HTTP (Cont.)
 
 ```bash
 hydra -l admin -P passwords.txt 192.168.1.1 http-get /login.php
@@ -82,7 +82,7 @@ hydra -l admin -P passwords.txt 192.168.1.1 http-get /login.php
 
 This command will use the username `admin` and the password list `passwords.txt` to perform a GET request on `http://192.168.1.1/login.php`.
 
-### FTP
+### FTP (Cont.)
 
 ```bash
 hydra -l john -P passwords.txt ftp://192.168.1.1
