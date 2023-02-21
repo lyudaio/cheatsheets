@@ -92,4 +92,4 @@ This command will use the username `john` and the password list `passwords.txt` 
 
 ## Additional Resources
 
-For more information on Hydra, please refer to the official documentation: [https://github.com/vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
+For more information on Hydra, please refer to the [official documentation](https://github.com/vanhauser-thc/thc-hydra)
