@@ -66,9 +66,16 @@ Each cheatsheet includes all the essential information you need to get started, 
       - [ssh](https://cheatsheets.lyuda.io/operating_systems/linux/tools/ssh)
       - [tar](https://cheatsheets.lyuda.io/operating_systems/linux/tools/tar)
       - [vim](https://cheatsheets.lyuda.io/operating_systems/linux/tools/vim)
+    - **Versions**
+      - [Linux Distributions Versions](https://cheatsheets.lyuda.io/operating_systems/linux/versions)
+  - **macOS**
+    - **Versions**
+      - [macOS Versions](https://cheatsheets.lyuda.io/operating_systems/macos/versions)
   - **Windows**
     - [Windows 95](https://cheatsheets.lyuda.io/operating_systems/windows/windows_95)
     - [Windows Server](https://cheatsheets.lyuda.io/operating_systems/windows/windows_server)
+    - **Versions**
+      - [Windows Versions](https://cheatsheets.lyuda.io/operating_systems/windows/versions)
 
 - **Security**
 
