@@ -10,7 +10,7 @@ Each cheatsheet includes all the essential information you need to get started, 
 
 ## Table of Contents
 
-**Note:** The below table of contents link to the cheatsheets.lyuda.io git wiki. Since the README.md is also the homepage of the git wiki, it makes it easier for users to navigate from the site. 
+**Note:** The below table of contents link to the cheatsheets.lyuda.io git wiki. Since the README is also the homepage of the git wiki, it makes it easier for users to navigate from the site.
 
 - **Programming Languages**
 
