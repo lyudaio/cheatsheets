@@ -1,4 +1,4 @@
-# Lyuda Cheatsheet Repository
+# Cheatsheet Repository
 
 Glad you made it to our little corner of the interwebs. We know that being a programmer can be tough. It's a constantly-changing landscape, and it can be hard to keep up. That's why we've put together this cheatsheet repository, so you can get all the info you need in one place.
 
