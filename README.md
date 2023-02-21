@@ -120,13 +120,13 @@ Each cheatsheet includes all the essential information you need to get started, 
 
 - **Meta**
 
-  - [Don't Repeat Yourself (DRY)](https://cheatsheets.lyuda.io/productivity/dry)
-  - [ID10T](https://cheatsheets.lyuda.io/productivity/id10t)
-  - [KISS](https://cheatsheets.lyuda.io/productivity/kiss)
-  - [PEBCAK](https://cheatsheets.lyuda.io/productivity/pebcak)
-  - [RTFM](https://cheatsheets.lyuda.io/productivity/rtfm)
-  - [Rubber Duck Debugging](https://cheatsheets.lyuda.io/productivity/rubberduckdebug)
-  - [YAGNI](https://cheatsheets.lyuda.io/productivity/yagni)
+  - [Don't Repeat Yourself (DRY)](https://cheatsheets.lyuda.io/meta/dry)
+  - [ID10T](https://cheatsheets.lyuda.io/meta/id10t)
+  - [KISS](https://cheatsheets.lyuda.io/meta/kiss)
+  - [PEBCAK](https://cheatsheets.lyuda.io/meta/pebcak)
+  - [RTFM](https://cheatsheets.lyuda.io/meta/rtfm)
+  - [Rubber Duck Debugging](https://cheatsheets.lyuda.io/meta/rubberduckdebug)
+  - [YAGNI](https://cheatsheets.lyuda.io/meta/yagni)
 
 - **Infrastructure**
 
