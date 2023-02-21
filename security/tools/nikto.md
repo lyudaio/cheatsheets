@@ -68,6 +68,6 @@ Here are some of the most commonly used advanced options:
 
 ## Additional Resources
 
-- [Official documentation](https://cirt.net/Nikto2)
+- [Official Documentation](https://cirt.net/Nikto2)
 - [Nikto GitHub repository](https://github.com/sullo/nikto)
 - [Nikto tutorial](https://www.hackingarticles.in/comprehensive-guide-to-nikto-web-vulnerability-scanner/)

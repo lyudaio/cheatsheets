@@ -15,7 +15,7 @@ Beef can be installed on Linux, Mac, and Windows machines. The installation proc
    ./beef
    ```
 
-   This will start the Beef server.
+   This will start the Beef server
 
 ## Basic Usage
 

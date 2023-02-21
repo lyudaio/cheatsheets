@@ -89,4 +89,4 @@ To use this attack vector, follow these steps:
 
 ## Additional Resources
 
-For more information on using SET, refer to the official documentation: [https://github.com/trustedsec/social-engineer-toolkit/wiki](https://github.com/trustedsec/social-engineer-toolkit/wiki)
+For more information on using SET, refer to the [Official Documentation](https://github.com/trustedsec/social-engineer-toolkit/wiki)
