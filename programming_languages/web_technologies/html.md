@@ -15,13 +15,36 @@ HTML is the standard markup language used to create web pages. Here are some tip
 - Use descriptive and meaningful names for your IDs and classes. Avoid using generic names like "box" or "container".
 - Use the alt attribute for images to improve accessibility for visually impaired users and to improve your website's SEO.
 
-## Tags and Elements
+## HTML Elements
 
-- Use headings (`<h1>` to `<h6>`) to structure your content and make it easier to read.
-- Use the `<a>` tag for links, and use the href attribute to specify the URL.
-- Use the `<img>` tag for images, and use the src attribute to specify the image file.
-- Use the `<div>` tag for grouping related elements together, and use the class attribute to apply CSS styles to the group.
-- Use the `<span>` tag for applying styles to individual text elements, and use the class attribute to apply CSS styles to the text.
+| Element                | Description                                                                                                                |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `<!DOCTYPE html>`      | Defines the document type and version of HTML being used. This should be included at the beginning of every HTML document. |
+| `<html>`               | The root element of an HTML document. Contains two child elements, `head` and `body`.                                      |
+| `<head>`               | Contains information about the document, such as the title, metadata, and links to external resources.                     |
+| `<body>`               | Contains the visible content of the document.                                                                              |
+| `<h1> - <h6>`          | Heading elements, with `<h1>` being the largest and `<h6>` being the smallest.                                             |
+| `<p>`                  | Paragraph element. Used to define a block of text.                                                                         |
+| `<a>`                  | Anchor element. Used to create hyperlinks to other web pages or resources.                                                 |
+| `<img>`                | Image element. Used to display images on a web page.                                                                       |
+| `<ul>`, `<ol>`, `<li>` | Unordered list, ordered list, and list item elements, respectively. Used to create lists.                                  |
+| `<div>`                | Generic container element. Used to group other elements together.                                                          |
+| `<span>`               | Generic inline element. Used to apply styles or other attributes to a specific section of text.                            |
+| `<form>`               | Form element. Used to create interactive forms for user input.                                                             |
+
+## HTML Attributes
+
+| Attribute | Description                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------- |
+| `class`   | Used to specify a CSS class for an element.                                                   |
+| `id`      | Used to specify a unique identifier for an element.                                           |
+| `style`   | Used to specify inline styles for an element.                                                 |
+| `src`     | Used to specify the URL of an external resource, such as an image or script.                  |
+| `href`    | Used to specify the URL of a linked resource.                                                 |
+| `alt`     | Used to specify alternative text for an image, to be displayed if the image cannot be loaded. |
+| `type`    | Used to specify the type of content in an input element.                                      |
+| `name`    | Used to specify the name of a form element.                                                   |
+| `value`   | Used to specify the default value of a form element.                                          |
 
 ## Further Resources
 
