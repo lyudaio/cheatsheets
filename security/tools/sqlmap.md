@@ -113,8 +113,6 @@ sqlmap -u "http://www.example.com/vuln.php?id=1" -p id --tamper=apostrophemask
 
 For further details and options, you can refer to the official documentation of sqlmap at:
 
-```bash
 http://sqlmap.org/
-```
 
 Please ensure to use this tool responsibly and ethically.
