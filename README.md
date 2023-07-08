@@ -97,7 +97,9 @@ Each cheatsheet includes all the essential information you need to get started, 
     - [OpenVAS](https://cheatsheets.lyuda.io/security/tools/openvas)
     - [Reaver](https://cheatsheets.lyuda.io/security/tools/reaver)
     - [SET](https://cheatsheets.lyuda.io/security/tools/set)
+    - [sqlmap](https://cheatsheets.lyuda.io/security/tools/sqlmap)
     - [Wireshark](https://cheatsheets.lyuda.io/security/tools/wireshark)
+    - [zap](https://cheatsheets.lyuda.io/security/tools/zap)
 
 - **Databases**
 
@@ -122,12 +124,15 @@ Each cheatsheet includes all the essential information you need to get started, 
 
 - **Meta**
 
+  - [Defense in Depth](https://cheatsheets.lyuda.io/meta/defense)
+  - [DevOps/SRE vs SysAdmins](https://cheatsheets.lyuda.io/meta/devops_vs_sysadmin)
   - [Don't Repeat Yourself (DRY)](https://cheatsheets.lyuda.io/meta/dry)
   - [ID10T](https://cheatsheets.lyuda.io/meta/id10t)
   - [KISS](https://cheatsheets.lyuda.io/meta/kiss)
   - [PEBCAK](https://cheatsheets.lyuda.io/meta/pebcak)
   - [RTFM](https://cheatsheets.lyuda.io/meta/rtfm)
   - [Rubber Duck Debugging](https://cheatsheets.lyuda.io/meta/rubberduckdebug)
+  - [Site Reliability Engineering](https://cheatsheets.lyuda.io/meta/sre)
   - [YAGNI](https://cheatsheets.lyuda.io/meta/yagni)
 
 - **Infrastructure**
