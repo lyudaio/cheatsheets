@@ -1,4 +1,3 @@
-
 # sqlmap
 
 ## Introduction
@@ -19,7 +18,7 @@ where `[options]` could be any of the options described below.
 
 ### Target
 
-- `-u URL, --url=URL`: Target URL (e.g. "http://www.site.com/vuln.php?id=1").
+- `-u URL, --url=URL`: Target URL (e.g. "<http://www.site.com/vuln.php?id=1>").
 - `-l LOGFILE, --log-file=LOGFILE`: Parse target(s) from Burp or WebScarab proxy log file.
 - `-x SITEMAPURL, --sitemap-url=SITEMAPURL`: Parse target(s) from remote sitemap(.xml) file.
 - `-m BULKFILE, --bulk-file=BULKFILE`: Scan multiple targets given in a textual file.
