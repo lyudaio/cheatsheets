@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Password Generator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #282828;
+            color: #F8F8F8;
+            font-family: Arial, sans-serif;
+        }
+        #password {
+            font-size: 24px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        #length {
+            width: 100%;
+        }
+        .center-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+        }
+        .form-check-input {
+            width: 1.2em;
+            height: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-div">
+        <h1 class="text-center">Secure Password Generator</h1>
+
+        <div class="input-group mb-3">
+            <input type="text" id="password" class="form-control" readonly>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="copyToClipboard()">Copy</button>
+            </div>
+        </div>
+
+        <h4>Password length: <span id="len_val">8</span></h4>
+        <input type="range" class="custom-range" min="8" max="128" value="8" id="length" onchange="showValue(this.value)">
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="symbols" checked>
+            <label class="form-check-label" for="symbols">Include symbols</label>
+        </div>
+
+        <button class="btn btn-primary btn-block" onclick="generate()">Generate password</button>
+    </div>
+
+    <script>
+        const symbols = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+        
+        function generate() {
+            const length = document.getElementById("length").value;
+            const includeSymbols = document.getElementById("symbols").checked;
+            let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            if(includeSymbols) {
+                characters += symbols;
+            }
+            
+            let password = "";
+            for(let i = 0; i < length; i++) {
+                password += characters.charAt(Math.floor(Math.random() * characters.length));
+            }
+            document.getElementById("password").value = password;
+        }
+
+        function copyToClipboard() {
+            const password = document.getElementById("password");
+            password.select();
+            password.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+        }
+
+        function showValue(value) {
+            document.getElementById("len_val").innerText = value;
+            generate();
+        }
+
+        generate();
+    </script>
+</body>
+</html>
