@@ -1,13 +1,12 @@
 <div>
     <h1>Secure Password Generator</h1>
+    <input type="text" id="password" readonly>
+    <button onclick="copyToClipboard()">Copy to clipboard</button><br><br>
 
-    <textarea id="password" rows="4" cols="50" readonly></textarea>
-    <button onclick="copyToClipboard()">Copy to clipboard</button>
+    <label for="length">Password length: <span id="len_val">8</span></label><br>
+    <input type="range" min="8" max="128" value="8" id="length" onchange="showValue(this.value)"><br><br>
 
-    <h3>Password length: <span id="len_val">8</span></h3>
-    <input type="range" min="8" max="128" value="8" id="length" onchange="showValue(this.value)">
-
-    <input type="checkbox" id="symbols" checked> Include symbols
+    <input type="checkbox" id="symbols" checked> Include symbols<br><br>
 
     <button onclick="generate()">Generate password</button>
 </div>
